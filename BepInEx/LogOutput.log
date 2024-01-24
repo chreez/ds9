@@ -8,38 +8,22 @@
 [Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.22.0]
 [Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.MonoMod.HookGenPatcher 1.2.0.0]
 [Info   :   BepInEx] 2 patcher plugins loaded
-[Info   :   Console] [MonoMod] 
-[Info   :   Console] Reading input file into module.
-[Info   :HookGenPatcher] Starting HookGenerator
-[Info   :HookGenPatcher] Done.
-[Info   :   Console] [MonoMod] 
-[Info   :   Console] Reading input file into module.
-[Info   :HookGenPatcher] Starting HookGenerator
-[Info   :HookGenPatcher] Done.
-[Info   :   Console] [MonoMod] 
-[Info   :   Console] Reading input file into module.
-[Info   :HookGenPatcher] Starting HookGenerator
-[Info   :HookGenPatcher] Done.
-[Info   :   Console] [MonoMod] 
-[Info   :   Console] Reading input file into module.
-[Info   :HookGenPatcher] Starting HookGenerator
-[Info   :HookGenPatcher] Done.
-[Info   :   Console] [MonoMod] 
-[Info   :   Console] Reading input file into module.
-[Info   :HookGenPatcher] Starting HookGenerator
-[Info   :HookGenPatcher] Done.
-[Info   :   Console] [MonoMod] 
-[Info   :   Console] Reading input file into module.
-[Info   :HookGenPatcher] Starting HookGenerator
-[Info   :HookGenPatcher] Done.
-[Info   :   Console] [MonoMod] 
-[Info   :   Console] Reading input file into module.
-[Info   :HookGenPatcher] Starting HookGenerator
-[Info   :HookGenPatcher] Done.
-[Info   :   Console] [MonoMod] 
-[Info   :   Console] Reading input file into module.
-[Info   :HookGenPatcher] Starting HookGenerator
-[Info   :HookGenPatcher] Done.
+[Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
+[Info   :HookGenPatcher] Already ran for this version, reusing that file.
+[Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
+[Info   :HookGenPatcher] Already ran for this version, reusing that file.
+[Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
+[Info   :HookGenPatcher] Already ran for this version, reusing that file.
+[Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
+[Info   :HookGenPatcher] Already ran for this version, reusing that file.
+[Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
+[Info   :HookGenPatcher] Already ran for this version, reusing that file.
+[Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
+[Info   :HookGenPatcher] Already ran for this version, reusing that file.
+[Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
+[Info   :HookGenPatcher] Already ran for this version, reusing that file.
+[Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
+[Info   :HookGenPatcher] Already ran for this version, reusing that file.
 [Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
 [Message:   BepInEx] Preloader finished
 [Message:   BepInEx] Chainloader ready
@@ -52,25 +36,25 @@
 [Info   :   BepInEx] Loading [AzuMapDetails 1.0.2]
 [Info   :   BepInEx] Loading [AzuMiscPatches 1.2.0]
 [Info   :   BepInEx] Loading [Backpacks 1.3.3]
-[Info   : Unity Log] 01/24/2024 09:14:41: Loaded localization file #0 - 'localization' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:34: Loaded localization file #0 - 'localization' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:41: Loaded localization file #1 - 'localization_extra' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:34: Loaded localization file #1 - 'localization_extra' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:41: Loaded localization file #2 - 'heightmap_message' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:34: Loaded localization file #2 - 'heightmap_message' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:41: Loaded localization file #3 - 'localization_hildir' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:34: Loaded localization file #3 - 'localization_hildir' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:41: Loaded localization file #4 - 'localization_emotes' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:34: Loaded localization file #4 - 'localization_emotes' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:41: Loaded localization file #0 - 'localization' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:34: Loaded localization file #0 - 'localization' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:41: Loaded localization file #1 - 'localization_extra' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:34: Loaded localization file #1 - 'localization_extra' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:41: Loaded localization file #2 - 'heightmap_message' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:34: Loaded localization file #2 - 'heightmap_message' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:41: Loaded localization file #3 - 'localization_hildir' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:34: Loaded localization file #3 - 'localization_hildir' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:41: Loaded localization file #4 - 'localization_emotes' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:34: Loaded localization file #4 - 'localization_emotes' language: 'English'
 
 [Info   :   BepInEx] Loading [BowsBeforeHoes 1.2.9]
 [Info   :   BepInEx] Loading [Configuration Manager 18.2]
@@ -91,6 +75,7 @@
 [Info   :MultiplayerTweaks] Watch me Tweak, now watch me Neigh Neigh.
 [Info   :   BepInEx] Loading [PlanBuild 0.14.7]
 [Info   :Jotunn.Main] Initializing InputManager
+[Error  : Unity Log] Desired shader compiler platform 18 is not available in shader blob
 [Info   :Jotunn.Main] Initializing GUIManager
 [Info   :Jotunn.Main] Initializing MockManager
 [Info   :Jotunn.Main] Initializing PieceManager
@@ -100,16 +85,6 @@
 [Info   :PlanBuild.Blueprints.BlueprintManager] Initializing BlueprintManager
 [Info   :Jotunn.Main] Initializing CommandManager
 [Info   :PlanBuild.Blueprints.BlueprintSync] Loading known blueprints
-[Warning:PlanBuild.Blueprints.BlueprintSync] Could not load blueprint .\ds9patcher\backup\BepInEx\config\PlanBuild\blueprints\Shitty Game_My_House.blueprint: System.IndexOutOfRangeException: Index was outside the bounds of the array.
-  at PlanBuild.Blueprints.PieceEntry.FromBlueprint (System.String line) [0x0004e] in <787fcd34337844b082ec8eed172311d8>:0 
-  at PlanBuild.Blueprints.Blueprint.FromArray (System.String id, System.String[] lines, PlanBuild.Blueprints.Blueprint+Format format) [0x00205] in <787fcd34337844b082ec8eed172311d8>:0 
-  at PlanBuild.Blueprints.Blueprint.FromFile (System.String fileLocation) [0x0006c] in <787fcd34337844b082ec8eed172311d8>:0 
-  at PlanBuild.Blueprints.BlueprintSync.GetLocalBlueprints () [0x000a3] in <787fcd34337844b082ec8eed172311d8>:0 
-[Warning:PlanBuild.Blueprints.BlueprintSync] Could not load blueprint .\ds9patcher\backup\BepInEx\config\PlanBuild\blueprints\bakery1.vbuild: System.IndexOutOfRangeException: Index was outside the bounds of the array.
-  at PlanBuild.Blueprints.PieceEntry.FromVBuild (System.String line) [0x0003f] in <787fcd34337844b082ec8eed172311d8>:0 
-  at PlanBuild.Blueprints.Blueprint.FromArray (System.String id, System.String[] lines, PlanBuild.Blueprints.Blueprint+Format format) [0x001f6] in <787fcd34337844b082ec8eed172311d8>:0 
-  at PlanBuild.Blueprints.Blueprint.FromFile (System.String fileLocation) [0x0006c] in <787fcd34337844b082ec8eed172311d8>:0 
-  at PlanBuild.Blueprints.BlueprintSync.GetLocalBlueprints () [0x000a3] in <787fcd34337844b082ec8eed172311d8>:0 
 [Info   :Jotunn.Main] Initializing UndoManager
 [Info   :Jotunn.Main] Initializing KitbashManager
 [Info   :PlanBuild.Plans.PlanManager] Initializing PlanManager
@@ -140,151 +115,970 @@
 [Info   :   BepInEx] Loading [Vitality 1.1.2]
 [Info   :   BepInEx] Loading [Display BepInEx Info In-Game 2.0.2]
 [Message:   BepInEx] Chainloader startup complete
-[Warning: Unity Log] 01/24/2024 09:14:48: Fetching PlatformPrefs 'GuiScale' before loading defaults
+[Warning: Unity Log] 01/24/2024 08:50:41: Fetching PlatformPrefs 'GuiScale' before loading defaults
 
-[Warning: Unity Log] 01/24/2024 09:14:48: Fetching PlatformPrefs 'GuiScale' before loading defaults
+[Warning: Unity Log] 01/24/2024 08:50:41: Fetching PlatformPrefs 'GuiScale' before loading defaults
 
 [Warning: Unity Log] Privilege Multiplayer is not known on this platform. Privilege therefore is granted without check...
 [Warning: Unity Log] Privilege UserGeneratedContent is not known on this platform. Privilege therefore is granted without check...
 [Warning: Unity Log] Privilege CrossPlay is not known on this platform. Privilege therefore is granted without check...
-[Info   : Unity Log] 01/24/2024 09:14:48: Starting to load scene:start
+[Info   : Unity Log] 01/24/2024 08:50:41: Starting to load scene:start
 
 [Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Amb_MainMenu).
-[Info   : Unity Log] 01/24/2024 09:14:55: Loaded localization file #0 - 'localization' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:47: Loaded localization file #0 - 'localization' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:55: Loaded localization file #1 - 'localization_extra' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:47: Loaded localization file #1 - 'localization_extra' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:55: Loaded localization file #2 - 'heightmap_message' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:47: Loaded localization file #2 - 'heightmap_message' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:55: Loaded localization file #3 - 'localization_hildir' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:47: Loaded localization file #3 - 'localization_hildir' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:55: Loaded localization file #4 - 'localization_emotes' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:47: Loaded localization file #4 - 'localization_emotes' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:55: Loaded localization file #0 - 'localization' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:47: Loaded localization file #0 - 'localization' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:55: Loaded localization file #1 - 'localization_extra' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:47: Loaded localization file #1 - 'localization_extra' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:55: Loaded localization file #2 - 'heightmap_message' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:47: Loaded localization file #2 - 'heightmap_message' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:55: Loaded localization file #3 - 'localization_hildir' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:47: Loaded localization file #3 - 'localization_hildir' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:55: Loaded localization file #4 - 'localization_emotes' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:47: Loaded localization file #4 - 'localization_emotes' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:55: Loaded localization file #0 - 'localization' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:47: Loaded localization file #0 - 'localization' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:55: Loaded localization file #1 - 'localization_extra' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:48: Loaded localization file #1 - 'localization_extra' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:55: Loaded localization file #2 - 'heightmap_message' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:48: Loaded localization file #2 - 'heightmap_message' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:55: Loaded localization file #3 - 'localization_hildir' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:48: Loaded localization file #3 - 'localization_hildir' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:55: Loaded localization file #4 - 'localization_emotes' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:48: Loaded localization file #4 - 'localization_emotes' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:55: Using steam_appid.txt
+[Info   : Unity Log] 01/24/2024 08:50:48: Using environment steamid 892970
 
-[Info   : Unity Log] 01/24/2024 09:14:55: Using steam APPID:892970
+[Info   : Unity Log] 01/24/2024 08:50:48: Using steam APPID:892970
 
-[Info   : Unity Log] 01/24/2024 09:14:55: Authentication:k_ESteamNetworkingAvailability_Attempting
+[Info   : Unity Log] 01/24/2024 08:50:48: Authentication:k_ESteamNetworkingAvailability_Attempting
 
-[Info   : Unity Log] 01/24/2024 09:14:55: Steam initialized, persona:CHris?
+[Info   : Unity Log] 01/24/2024 08:50:48: Steam initialized, persona:CHris?
 
-[Info   : Unity Log] 01/24/2024 09:14:55: PlayFab custom ID set to "Steam_76561197962507535"
+[Info   : Unity Log] 01/24/2024 08:50:48: PlayFab custom ID set to "Steam_76561197962507535"
 
-[Info   : Unity Log] 01/24/2024 09:14:55: Using default prefs
+[Info   : Unity Log] 01/24/2024 08:50:48: Using default prefs
 
-[Info   : Unity Log] 01/24/2024 09:14:55: Valheim version: 0.217.38 (network version 20)
+[Info   : Unity Log] 01/24/2024 08:50:48: Valheim version: 0.217.38 (network version 20)
 
 [Info   : Unity Log] Trying to set graphic mode to 'Custom'
 [Info   : Unity Log] Graphic mode 'Custom' is not or no longer supported. Fallback to default mode for platform...
 [Info   : Unity Log] Graphic mode 'Custom' applied!
-[Info   : Unity Log] 01/24/2024 09:14:55: Worldgenerator version setup:2
+[Info   : Unity Log] 01/24/2024 08:50:48: Worldgenerator version setup:2
 
 [Info   :Jotunn.Managers.CommandManager] Adding 19 commands to the Console
-[Info   : Unity Log] 01/24/2024 09:14:55: Render threading mode:MultiThreaded
+[Info   : Unity Log] 01/24/2024 08:50:48: Render threading mode:MultiThreaded
 
-[Warning: Unity Log] 01/24/2024 09:14:56: Set button "CamZoomIn" to None!
+[Warning: Unity Log] 01/24/2024 08:50:48: Set button "CamZoomIn" to None!
 
-[Warning: Unity Log] 01/24/2024 09:14:56: Set button "CamZoomOut" to None!
+[Warning: Unity Log] 01/24/2024 08:50:48: Set button "CamZoomOut" to None!
 
-[Warning: Unity Log] 01/24/2024 09:14:56: Set button "CamZoomIn" to None!
+[Warning: Unity Log] 01/24/2024 08:50:48: Set button "CamZoomIn" to None!
 
-[Warning: Unity Log] 01/24/2024 09:14:56: Set button "CamZoomOut" to None!
+[Warning: Unity Log] 01/24/2024 08:50:48: Set button "CamZoomOut" to None!
 
 [Info   :Jotunn.Managers.InputManager] Registering 5 custom inputs
-[Warning: Unity Log] 01/24/2024 09:14:56: Missing audio clip in music respawn
+[Warning: Unity Log] 01/24/2024 08:50:48: Missing audio clip in music respawn
 
-[Info   : Unity Log] 01/24/2024 09:14:56: Checking for installed DLCs
+[Info   : Unity Log] 01/24/2024 08:50:48: Checking for installed DLCs
 
-[Info   : Unity Log] 01/24/2024 09:14:56: DLC:beta installed:False
+[Info   : Unity Log] 01/24/2024 08:50:48: DLC:beta installed:False
 
 [Info   :Jotunn.Main] Initializing KeyHintManager
 [Info   :Jotunn.Managers.KitbashManager] Applying Kitbash in 1 objects
 [Info   :Jotunn.Managers.ItemManager] Adding 3 custom items to the ObjectDB
-[Info   : Unity Log] 01/24/2024 09:14:56: Loaded localization file #0 - 'localization' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:49: Loaded localization file #0 - 'localization' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:56: Loaded localization file #1 - 'localization_extra' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:49: Loaded localization file #1 - 'localization_extra' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:56: Loaded localization file #2 - 'heightmap_message' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:49: Loaded localization file #2 - 'heightmap_message' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:56: Loaded localization file #3 - 'localization_hildir' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:49: Loaded localization file #3 - 'localization_hildir' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:56: Loaded localization file #4 - 'localization_emotes' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:49: Loaded localization file #4 - 'localization_emotes' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:56: Loaded localization file #0 - 'localization' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:49: Loaded localization file #0 - 'localization' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:56: Loaded localization file #1 - 'localization_extra' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:49: Loaded localization file #1 - 'localization_extra' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:56: Loaded localization file #2 - 'heightmap_message' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:49: Loaded localization file #2 - 'heightmap_message' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:56: Loaded localization file #3 - 'localization_hildir' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:49: Loaded localization file #3 - 'localization_hildir' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:56: Loaded localization file #4 - 'localization_emotes' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:49: Loaded localization file #4 - 'localization_emotes' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:56: Loaded localization file #0 - 'localization' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:49: Loaded localization file #0 - 'localization' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:56: Loaded localization file #1 - 'localization_extra' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:49: Loaded localization file #1 - 'localization_extra' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:57: Loaded localization file #2 - 'heightmap_message' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:49: Loaded localization file #2 - 'heightmap_message' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:57: Loaded localization file #3 - 'localization_hildir' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:49: Loaded localization file #3 - 'localization_hildir' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:57: Loaded localization file #4 - 'localization_emotes' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:49: Loaded localization file #4 - 'localization_emotes' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:57: Loaded localization file #0 - 'localization' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:49: Loaded localization file #0 - 'localization' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:57: Loaded localization file #1 - 'localization_extra' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:49: Loaded localization file #1 - 'localization_extra' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:57: Loaded localization file #2 - 'heightmap_message' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:49: Loaded localization file #2 - 'heightmap_message' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:57: Loaded localization file #3 - 'localization_hildir' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:49: Loaded localization file #3 - 'localization_hildir' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:57: Loaded localization file #4 - 'localization_emotes' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:49: Loaded localization file #4 - 'localization_emotes' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:57: Loaded localization file #0 - 'localization' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:49: Loaded localization file #0 - 'localization' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:57: Loaded localization file #1 - 'localization_extra' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:49: Loaded localization file #1 - 'localization_extra' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:57: Loaded localization file #2 - 'heightmap_message' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:49: Loaded localization file #2 - 'heightmap_message' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:57: Loaded localization file #3 - 'localization_hildir' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:49: Loaded localization file #3 - 'localization_hildir' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:57: Loaded localization file #4 - 'localization_emotes' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:49: Loaded localization file #4 - 'localization_emotes' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:57: Loaded localization file #0 - 'localization' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:49: Loaded localization file #0 - 'localization' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:57: Loaded localization file #1 - 'localization_extra' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:49: Loaded localization file #1 - 'localization_extra' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:57: Loaded localization file #2 - 'heightmap_message' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:49: Loaded localization file #2 - 'heightmap_message' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:57: Loaded localization file #3 - 'localization_hildir' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:49: Loaded localization file #3 - 'localization_hildir' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:57: Loaded localization file #4 - 'localization_emotes' language: 'English'
+[Info   : Unity Log] 01/24/2024 08:50:49: Loaded localization file #4 - 'localization_emotes' language: 'English'
 
-[Info   : Unity Log] 01/24/2024 09:14:57: Sending PlayFab login request (attempt 1)
+[Info   : Unity Log] 01/24/2024 08:50:49: Sending PlayFab login request (attempt 1)
 
-[Info   : Unity Log] 01/24/2024 09:14:57: Starting music menu
+[Info   : Unity Log] 01/24/2024 08:50:49: Starting music menu
 
-[Info   : Unity Log] 01/24/2024 09:14:58: PlayFab logged in as "Steam_76561197962507535"
+[Info   : Unity Log] 01/24/2024 08:50:50: PlayFab logged in as "Steam_76561197962507535"
 
-[Info   : Unity Log] 01/24/2024 09:14:58: PlayFab local entity ID is C4118A0ACDC9A0CA
+[Info   : Unity Log] 01/24/2024 08:50:50: PlayFab local entity ID is C4118A0ACDC9A0CA
+
+[Info   : Unity Log] 01/24/2024 08:50:53: show character selection
+
+[Info   : Unity Log] 01/24/2024 08:50:54: OnCharacterStart
+
+[Info   : Unity Log] 01/24/2024 08:50:55: PlayFab lobby matching search filter 'string_key10 eq '150.220.73.228:1337' and string_key2 eq 'True'': Got back zero lobbies
+
+[Info   : Unity Log] 01/24/2024 08:50:56: Added server with name Deep Space Heim - Experimental to server list
+
+[Info   : Unity Log] 01/24/2024 08:50:57: Backend not retreived yet, checking again in 0.25 seconds...
+
+[Info   : Unity Log] 01/24/2024 08:50:58: Backend not retreived yet, checking again in 0.25 seconds...
+
+[Info   : Unity Log] 01/24/2024 08:50:58: Backend not retreived yet, checking again in 0.25 seconds...
+
+[Info   : Unity Log] 01/24/2024 08:50:58: Backend not retreived yet, checking again in 0.25 seconds...
+
+[Info   : Unity Log] 01/24/2024 08:50:58: Backend not retreived yet, checking again in 0.25 seconds...
+
+[Info   : Unity Log] 01/24/2024 08:50:59: Backend not retreived yet, checking again in 0.25 seconds...
+
+[Info   : Unity Log] 01/24/2024 08:50:59: Backend not retreived yet, checking again in 0.25 seconds...
+
+[Info   : Unity Log] 01/24/2024 08:50:59: Backend not retreived yet, checking again in 0.25 seconds...
+
+[Info   : Unity Log] 01/24/2024 08:50:59: Backend not retreived yet, checking again in 0.25 seconds...
+
+[Info   : Unity Log] 01/24/2024 08:51:00: Backend not retreived yet, checking again in 0.25 seconds...
+
+[Info   : Unity Log] 01/24/2024 08:51:00: Backend not retreived yet, checking again in 0.25 seconds...
+
+[Info   : Unity Log] 01/24/2024 08:51:00: Backend not retreived yet, checking again in 0.25 seconds...
+
+[Info   : Unity Log] 01/24/2024 08:51:00: Backend not retreived yet, checking again in 0.25 seconds...
+
+[Info   : Unity Log] 01/24/2024 08:51:01: Backend not retreived yet, checking again in 0.25 seconds...
+
+[Info   : Unity Log] 01/24/2024 08:51:01: Backend not retreived yet, checking again in 0.25 seconds...
+
+[Info   : Unity Log] 01/24/2024 08:51:01: Backend not retreived yet, checking again in 0.25 seconds...
+
+[Info   : Unity Log] 01/24/2024 08:51:01: Backend not retreived yet, checking again in 0.25 seconds...
+
+[Info   : Unity Log] 01/24/2024 08:51:02: Backend not retreived yet, checking again in 0.25 seconds...
+
+[Info   : Unity Log] 01/24/2024 08:51:02: Backend not retreived yet, checking again in 0.25 seconds...
+
+[Info   : Unity Log] 01/24/2024 08:51:02: PlayFab lobby matching search filter 'string_key10 eq '150.220.73.228:2337' and string_key2 eq 'True'': Got back zero lobbies
+
+[Info   : Unity Log] 01/24/2024 08:51:02: Determined backend of dedicated server to be Steamworks
+
+[Info   : Unity Log] 01/24/2024 08:51:02: Loading main scene
+
+[Info   : Unity Log] 01/24/2024 08:51:02: Cloud Save: 117 bytes. /serverlist/favorite.new
+
+[Info   : Unity Log] 01/24/2024 08:51:02: Steam writing file chunks 1 / 1, (117 bytes)
+
+[Info   : Unity Log] 01/24/2024 08:51:02: Steam Cloud Move: 117 bytes. /serverlist/favorite -> /serverlist/favorite.old
+
+[Info   : Unity Log] 01/24/2024 08:51:02: Steam writing file chunks 1 / 1, (117 bytes)
+
+[Info   : Unity Log] 01/24/2024 08:51:02: Steam Cloud Move: 117 bytes. /serverlist/favorite.new -> /serverlist/favorite
+
+[Info   : Unity Log] 01/24/2024 08:51:02: Steam writing file chunks 1 / 1, (117 bytes)
+
+[Info   : Unity Log] 01/24/2024 08:51:02: Cloud Save: 496 bytes. /serverlist/recent.new
+
+[Info   : Unity Log] 01/24/2024 08:51:02: Steam writing file chunks 1 / 1, (496 bytes)
+
+[Info   : Unity Log] 01/24/2024 08:51:02: Steam Cloud Move: 496 bytes. /serverlist/recent -> /serverlist/recent.old
+
+[Info   : Unity Log] 01/24/2024 08:51:03: Steam writing file chunks 1 / 1, (496 bytes)
+
+[Info   : Unity Log] 01/24/2024 08:51:03: Steam Cloud Move: 496 bytes. /serverlist/recent.new -> /serverlist/recent
+
+[Info   : Unity Log] 01/24/2024 08:51:03: Steam writing file chunks 1 / 1, (496 bytes)
+
+[Info   : Unity Log] 01/24/2024 08:51:03: Steam initialized, persona:CHris?
+
+[Info   : Unity Log] 01/24/2024 08:51:03: PlayFab custom ID set to "Steam_76561197962507535"
+
+[Info   : Unity Log] 01/24/2024 08:51:03: Using default prefs
+
+[Info   :Jotunn.Managers.CommandManager] Adding 19 commands to the Console
+[Info   : Unity Log] 01/24/2024 08:51:03: Loading player profile shitty game
+
+[Info   : Unity Log] 01/24/2024 08:51:03: isModded: True
+
+[Info   : Unity Log] 01/24/2024 08:51:03: Zonesystem Awake 1309
+
+[Info   : Unity Log] 01/24/2024 08:51:03: DungeonDB Awake 1309
+
+[Info   : Unity Log] 01/24/2024 08:51:03: Steam initialized, persona:CHris?
+
+[Info   :Jotunn.Managers.PrefabManager] Adding 25 custom prefabs to the ZNetScene
+[Info   : Unity Log] 01/24/2024 08:51:03: Loaded localization file #0 - 'localization' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:03: Loaded localization file #1 - 'localization_extra' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:03: Loaded localization file #2 - 'heightmap_message' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:03: Loaded localization file #3 - 'localization_hildir' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:03: Loaded localization file #4 - 'localization_emotes' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:03: Loaded localization file #0 - 'localization' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:03: Loaded localization file #1 - 'localization_extra' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:03: Loaded localization file #2 - 'heightmap_message' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:03: Loaded localization file #3 - 'localization_hildir' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:03: Loaded localization file #4 - 'localization_emotes' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:03: Loaded localization file #0 - 'localization' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:03: Loaded localization file #1 - 'localization_extra' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:03: Loaded localization file #2 - 'heightmap_message' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:03: Loaded localization file #3 - 'localization_hildir' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:03: Loaded localization file #4 - 'localization_emotes' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:03: Loaded localization file #0 - 'localization' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:03: Loaded localization file #1 - 'localization_extra' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:03: Loaded localization file #2 - 'heightmap_message' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:03: Loaded localization file #3 - 'localization_hildir' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:03: Loaded localization file #4 - 'localization_emotes' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:03: Loaded localization file #0 - 'localization' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:03: Loaded localization file #1 - 'localization_extra' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:03: Loaded localization file #2 - 'heightmap_message' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:03: Loaded localization file #3 - 'localization_hildir' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:03: Loaded localization file #4 - 'localization_emotes' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:03: Loaded localization file #0 - 'localization' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:03: Loaded localization file #1 - 'localization_extra' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:03: Loaded localization file #2 - 'heightmap_message' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:03: Loaded localization file #3 - 'localization_hildir' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:03: Loaded localization file #4 - 'localization_emotes' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:03: Audioman already exist, destroying self
+
+[Info   : Unity Log] 01/24/2024 08:51:03: Checking for installed DLCs
+
+[Info   : Unity Log] 01/24/2024 08:51:03: DLC:beta installed:False
+
+[Info   :Jotunn.Managers.ItemManager] Adding 3 custom items to the ObjectDB
+[Info   :Jotunn.Managers.ItemManager] Adding 3 custom recipes to the ObjectDB
+[Info   :Jotunn.Managers.PieceManager] Adding 14 custom pieces to the PieceTables
+[Info   :Jotunn.Managers.NetworkManager] Registering 5 custom RPCs
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Authoritative Config Registered -> AuthoritativeConfig_nex.SpeedyPaths
+[Info   : Unity Log] 01/24/2024 08:51:06: Zonesystem Start 1309
+
+[Info   : Unity Log] 01/24/2024 08:51:07: Added 3 locations, 0 vegetations, 0 environments, 0 biome env-setups, 0 clutter  from locations_cp1
+
+[Info   : Unity Log] 01/24/2024 08:51:07: Added 1 locations, 0 vegetations, 2 environments, 0 biome env-setups, 0 clutter  from locations_mountaincaves
+
+[Info   : Unity Log] 01/24/2024 08:51:07: Added 27 locations, 25 vegetations, 5 environments, 1 biome env-setups, 3 clutter  from locations_mistlands
+
+[Info   : Unity Log] 01/24/2024 08:51:07: Added 4 locations, 0 vegetations, 1 environments, 0 biome env-setups, 0 clutter  from locations_hildir
+
+[Info   : Unity Log] 01/24/2024 08:51:07: DungeonDB Start 1309
+
+[Warning:PlanBuild.Plans.PlanDB] Warning for mod developers:
+Multiple pieces with the same m_name but different resource requirements, this will cause issues with Player.m_knownRecipes!
+Piece.m_name: $piece_yuleklapp
+ Requirements: $item_finewood:2, $item_bonefragments:1
+ Pieces: piece_gift1
+
+ Requirements: $item_finewood:3, $item_dandelion:1
+ Pieces: piece_gift2
+
+ Requirements: $item_finewood:4, $item_raspberries:1
+ Pieces: piece_gift3
+
+
+[Info   : Unity Log] 01/24/2024 08:51:07: ZRpc timeout set to 30s 
+
+[Info   : Unity Log] 01/24/2024 08:51:07: ZNET START
+
+[Info   : Unity Log] 01/24/2024 08:51:07: Connecting to server with Steam-backend 150.220.73.228:2337
+
+[Info   : Unity Log] 01/24/2024 08:51:07: Starting to connect to 150.220.73.228:2337
+
+[Info   :AzuCraftyBoxes] Invoking version check
+[Info   :AzuMapDetails] Invoking version check
+[Info   :BowsBeforeHoes] Invoking version check
+[Info   :ProfitablePieces] Invoking version check
+[Info   :Recycle_N_Reclaim] Invoking version check
+[Info   : Unity Log] 01/24/2024 08:51:07: Got status changed msg k_ESteamNetworkingConnectionState_Connecting
+
+[Info   : Unity Log] 01/24/2024 08:51:07: New connection
+
+[Info   : Unity Log] 01/24/2024 08:51:17: Got status changed msg k_ESteamNetworkingConnectionState_ProblemDetectedLocally
+
+[Info   : Unity Log] 01/24/2024 08:51:17: Got problem 5003:Timed out attempting to connect
+
+[Info   : Unity Log] 01/24/2024 08:51:17:   Closing socket 0
+
+[Info   : Unity Log] 01/24/2024 08:51:17: Closing socket 0
+
+[Info   : Unity Log] 01/24/2024 08:51:17:   send queue size:0
+
+[Info   : Unity Log] 01/24/2024 08:51:17: Got status changed msg k_ESteamNetworkingConnectionState_None
+
+[Info   : Unity Log] 01/24/2024 08:51:17: Disposing socket
+
+[Info   : Unity Log] 01/24/2024 08:51:17: Last socket, unregistering callback
+
+[Info   : Unity Log] 01/24/2024 08:51:17: ZSteamSocket  UnregisterGlobalCallbacks, existing sockets:0
+
+[Info   : Unity Log] 01/24/2024 08:51:17: Disposing socket
+
+[Info   : Unity Log] 01/24/2024 08:51:17: Last socket, unregistering callback
+
+[Info   : Unity Log] 01/24/2024 08:51:17: ZSteamSocket  UnregisterGlobalCallbacks, existing sockets:0
+
+[Info   : Unity Log] 01/24/2024 08:51:17: Lost connection to server:ErrorConnectFailed
+
+[Info   : Unity Log] 01/24/2024 08:51:17: Shuting down
+
+[Info   : Unity Log] 01/24/2024 08:51:17: Considering autobackup. World time: 9.939999, short time: 7200, long time: 43200, backup count: 4
+
+[Info   : Unity Log] 01/24/2024 08:51:17: Skipping backup. World session not long enough.
+
+[Info   : Unity Log] 01/24/2024 08:51:17: ZNet Shutdown
+
+[Info   : Unity Log] 01/24/2024 08:51:17: Unloading unused assets
+
+[Info   : Unity Log] 01/24/2024 08:51:17: Sending disconnect msg
+
+[Info   : Unity Log] ZPlayFabMatchmaking::UnregisterServer - unregistering server now. State: Uninitialized
+[Info   : Unity Log] 01/24/2024 08:51:18: ZNet OnDestroy
+
+[Info   : Unity Log] 01/24/2024 08:51:18: Net scene destroyed
+
+[Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Amb_MainMenu).
+[Info   : Unity Log] 01/24/2024 08:51:18: Steam initialized, persona:CHris?
+
+[Info   : Unity Log] 01/24/2024 08:51:18: PlayFab custom ID set to "Steam_76561197962507535"
+
+[Info   : Unity Log] 01/24/2024 08:51:18: Using default prefs
+
+[Info   : Unity Log] 01/24/2024 08:51:18: Valheim version: 0.217.38 (network version 20)
+
+[Info   : Unity Log] 01/24/2024 08:51:18: Worldgenerator version setup:2
+
+[Info   :Jotunn.Managers.CommandManager] Adding 19 commands to the Console
+[Info   : Unity Log] 01/24/2024 08:51:18: Render threading mode:MultiThreaded
+
+[Info   : Unity Log] 01/24/2024 08:51:18: Audioman already exist, destroying self
+
+[Info   : Unity Log] 01/24/2024 08:51:18: Checking for installed DLCs
+
+[Info   : Unity Log] 01/24/2024 08:51:18: DLC:beta installed:False
+
+[Info   :Jotunn.Managers.ItemManager] Adding 3 custom items to the ObjectDB
+[Info   : Unity Log] 01/24/2024 08:51:18: Loaded localization file #0 - 'localization' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:18: Loaded localization file #1 - 'localization_extra' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:18: Loaded localization file #2 - 'heightmap_message' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:18: Loaded localization file #3 - 'localization_hildir' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:18: Loaded localization file #4 - 'localization_emotes' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:19: Loaded localization file #0 - 'localization' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:19: Loaded localization file #1 - 'localization_extra' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:19: Loaded localization file #2 - 'heightmap_message' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:19: Loaded localization file #3 - 'localization_hildir' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:19: Loaded localization file #4 - 'localization_emotes' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:19: Loaded localization file #0 - 'localization' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:19: Loaded localization file #1 - 'localization_extra' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:19: Loaded localization file #2 - 'heightmap_message' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:19: Loaded localization file #3 - 'localization_hildir' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:19: Loaded localization file #4 - 'localization_emotes' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:19: Loaded localization file #0 - 'localization' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:19: Loaded localization file #1 - 'localization_extra' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:19: Loaded localization file #2 - 'heightmap_message' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:19: Loaded localization file #3 - 'localization_hildir' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:19: Loaded localization file #4 - 'localization_emotes' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:19: Loaded localization file #0 - 'localization' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:19: Loaded localization file #1 - 'localization_extra' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:19: Loaded localization file #2 - 'heightmap_message' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:19: Loaded localization file #3 - 'localization_hildir' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:19: Loaded localization file #4 - 'localization_emotes' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:19: Loaded localization file #0 - 'localization' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:19: Loaded localization file #1 - 'localization_extra' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:19: Loaded localization file #2 - 'heightmap_message' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:19: Loaded localization file #3 - 'localization_hildir' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:19: Loaded localization file #4 - 'localization_emotes' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:51:19: Starting music menu
+
+[Info   : Unity Log] 01/24/2024 08:52:36: show character selection
+
+[Info   : Unity Log] 01/24/2024 08:52:41: OnCharacterStart
+
+[Info   : Unity Log] 01/24/2024 08:52:42: PlayFab lobby matching search filter 'string_key10 eq '150.220.73.228:1337' and string_key2 eq 'True'': Got back zero lobbies
+
+[Info   : Unity Log] 01/24/2024 08:52:44: PlayFab lobby matching search filter 'string_key10 eq '150.220.73.228:2337' and string_key2 eq 'True'': Got back zero lobbies
+
+[Info   : Unity Log] 01/24/2024 08:52:46: Added server with name Deep Space Heim - Experimental to server list
+
+[Info   : Unity Log] 01/24/2024 08:52:48: Backend not retreived yet, checking again in 0.25 seconds...
+
+[Info   : Unity Log] 01/24/2024 08:52:48: Backend not retreived yet, checking again in 0.25 seconds...
+
+[Info   : Unity Log] 01/24/2024 08:52:48: Backend not retreived yet, checking again in 0.25 seconds...
+
+[Info   : Unity Log] 01/24/2024 08:52:48: Backend not retreived yet, checking again in 0.25 seconds...
+
+[Info   : Unity Log] 01/24/2024 08:52:49: Backend not retreived yet, checking again in 0.25 seconds...
+
+[Info   : Unity Log] 01/24/2024 08:52:49: Backend not retreived yet, checking again in 0.25 seconds...
+
+[Info   : Unity Log] 01/24/2024 08:52:49: Backend not retreived yet, checking again in 0.25 seconds...
+
+[Info   : Unity Log] 01/24/2024 08:52:49: Backend not retreived yet, checking again in 0.25 seconds...
+
+[Info   : Unity Log] 01/24/2024 08:52:50: Backend not retreived yet, checking again in 0.25 seconds...
+
+[Info   : Unity Log] 01/24/2024 08:52:50: Backend not retreived yet, checking again in 0.25 seconds...
+
+[Info   : Unity Log] 01/24/2024 08:52:50: Backend not retreived yet, checking again in 0.25 seconds...
+
+[Info   : Unity Log] 01/24/2024 08:52:50: Get Lobby
+Server Name : Deep Space Heim - Experimental
+Server IP : 150.220.73.228:2337
+Game Version : 0.217.38
+Network Version : 20
+Player ID : 105E8F34727E4286
+Players : 2
+Lobby ID : 35a1a47d-43d1-4cab-9795-de228d4281d2.r-20230509
+Network ID : 640e44be-4f18-483e-9b91-ed52ccb5a4fe|AwBCKPDGgiDi1MLm10q0Raxc45Ge2lNvdXRoQ2VudHJhbFVzAAAAAAAAlnepmXpd/Ohe5QQcQyDL8X43thImISbKGj4Y0JB+V5wnZlNkbnMtaXIwLTgxZTUtMTUxYTA2M2QtMWRkZS00MGIyLTg0OTUtMzhiZWJjNGU0OTVkLnNvdXRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ==
+Join Code : 973373
+Platform Restriction : None
+Dedicated : True
+Community : True
+TickCreated : 638417047638335043
+Modifiers : System.Collections.Generic.List`1[System.String]
+
+
+[Info   : Unity Log] 01/24/2024 08:52:50: Determined backend of dedicated server to be PlayFab
+
+[Info   : Unity Log] 01/24/2024 08:52:50: Loading main scene
+
+[Info   : Unity Log] 01/24/2024 08:52:50: Cloud Save: 117 bytes. /serverlist/favorite.new
+
+[Info   : Unity Log] 01/24/2024 08:52:50: Steam writing file chunks 1 / 1, (117 bytes)
+
+[Info   : Unity Log] 01/24/2024 08:52:51: Steam Cloud Move: 117 bytes. /serverlist/favorite -> /serverlist/favorite.old
+
+[Info   : Unity Log] 01/24/2024 08:52:51: Steam writing file chunks 1 / 1, (117 bytes)
+
+[Info   : Unity Log] 01/24/2024 08:52:51: Steam Cloud Move: 117 bytes. /serverlist/favorite.new -> /serverlist/favorite
+
+[Info   : Unity Log] 01/24/2024 08:52:51: Steam writing file chunks 1 / 1, (117 bytes)
+
+[Info   : Unity Log] 01/24/2024 08:52:51: Cloud Save: 496 bytes. /serverlist/recent.new
+
+[Info   : Unity Log] 01/24/2024 08:52:51: Steam writing file chunks 1 / 1, (496 bytes)
+
+[Info   : Unity Log] 01/24/2024 08:52:51: Steam Cloud Move: 496 bytes. /serverlist/recent -> /serverlist/recent.old
+
+[Info   : Unity Log] 01/24/2024 08:52:51: Steam writing file chunks 1 / 1, (496 bytes)
+
+[Info   : Unity Log] 01/24/2024 08:52:51: Steam Cloud Move: 496 bytes. /serverlist/recent.new -> /serverlist/recent
+
+[Info   : Unity Log] 01/24/2024 08:52:51: Steam writing file chunks 1 / 1, (496 bytes)
+
+[Info   : Unity Log] 01/24/2024 08:52:51: Steam initialized, persona:CHris?
+
+[Info   : Unity Log] 01/24/2024 08:52:51: PlayFab custom ID set to "Steam_76561197962507535"
+
+[Info   : Unity Log] 01/24/2024 08:52:51: Using default prefs
+
+[Info   :Jotunn.Managers.CommandManager] Adding 19 commands to the Console
+[Info   : Unity Log] 01/24/2024 08:52:51: Loading player profile shitty game
+
+[Info   : Unity Log] 01/24/2024 08:52:51: isModded: True
+
+[Info   : Unity Log] 01/24/2024 08:52:51: Zonesystem Awake 10387
+
+[Info   : Unity Log] 01/24/2024 08:52:51: DungeonDB Awake 10387
+
+[Info   : Unity Log] 01/24/2024 08:52:51: Steam initialized, persona:CHris?
+
+[Info   :Jotunn.Managers.PrefabManager] Adding 256 custom prefabs to the ZNetScene
+[Info   : Unity Log] 01/24/2024 08:52:51: Loaded localization file #0 - 'localization' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:52:51: Loaded localization file #1 - 'localization_extra' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:52:51: Loaded localization file #2 - 'heightmap_message' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:52:51: Loaded localization file #3 - 'localization_hildir' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:52:51: Loaded localization file #4 - 'localization_emotes' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:52:51: Loaded localization file #0 - 'localization' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:52:51: Loaded localization file #1 - 'localization_extra' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:52:51: Loaded localization file #2 - 'heightmap_message' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:52:51: Loaded localization file #3 - 'localization_hildir' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:52:51: Loaded localization file #4 - 'localization_emotes' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:52:51: Loaded localization file #0 - 'localization' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:52:51: Loaded localization file #1 - 'localization_extra' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:52:51: Loaded localization file #2 - 'heightmap_message' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:52:51: Loaded localization file #3 - 'localization_hildir' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:52:51: Loaded localization file #4 - 'localization_emotes' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:52:51: Loaded localization file #0 - 'localization' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:52:51: Loaded localization file #1 - 'localization_extra' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:52:51: Loaded localization file #2 - 'heightmap_message' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:52:51: Loaded localization file #3 - 'localization_hildir' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:52:51: Loaded localization file #4 - 'localization_emotes' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:52:51: Loaded localization file #0 - 'localization' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:52:51: Loaded localization file #1 - 'localization_extra' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:52:51: Loaded localization file #2 - 'heightmap_message' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:52:51: Loaded localization file #3 - 'localization_hildir' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:52:51: Loaded localization file #4 - 'localization_emotes' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:52:51: Loaded localization file #0 - 'localization' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:52:51: Loaded localization file #1 - 'localization_extra' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:52:51: Loaded localization file #2 - 'heightmap_message' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:52:51: Loaded localization file #3 - 'localization_hildir' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:52:51: Loaded localization file #4 - 'localization_emotes' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 08:52:51: Audioman already exist, destroying self
+
+[Info   : Unity Log] 01/24/2024 08:52:51: Checking for installed DLCs
+
+[Info   : Unity Log] 01/24/2024 08:52:51: DLC:beta installed:False
+
+[Info   :Jotunn.Managers.ItemManager] Adding 3 custom items to the ObjectDB
+[Info   :Jotunn.Managers.ItemManager] Adding 3 custom recipes to the ObjectDB
+[Info   :Jotunn.Managers.PieceManager] Adding 237 custom pieces to the PieceTables
+[Info   :Jotunn.Managers.NetworkManager] Registering 5 custom RPCs
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Authoritative Config Registered -> AuthoritativeConfig_nex.SpeedyPaths
+[Info   : Unity Log] 01/24/2024 08:52:55: Zonesystem Start 10387
+
+[Info   : Unity Log] 01/24/2024 08:52:55: Added 3 locations, 0 vegetations, 0 environments, 0 biome env-setups, 0 clutter  from locations_cp1
+
+[Info   : Unity Log] 01/24/2024 08:52:55: Added 1 locations, 0 vegetations, 2 environments, 0 biome env-setups, 0 clutter  from locations_mountaincaves
+
+[Info   : Unity Log] 01/24/2024 08:52:55: Added 27 locations, 25 vegetations, 5 environments, 1 biome env-setups, 3 clutter  from locations_mistlands
+
+[Info   : Unity Log] 01/24/2024 08:52:55: Added 4 locations, 0 vegetations, 1 environments, 0 biome env-setups, 0 clutter  from locations_hildir
+
+[Info   : Unity Log] 01/24/2024 08:52:55: DungeonDB Start 10387
+
+[Warning:PlanBuild.Plans.PlanDB] Warning for mod developers:
+Multiple pieces with the same m_name but different resource requirements, this will cause issues with Player.m_knownRecipes!
+Piece.m_name: $piece_yuleklapp
+ Requirements: $item_finewood:2, $item_bonefragments:1
+ Pieces: piece_gift1
+
+ Requirements: $item_finewood:3, $item_dandelion:1
+ Pieces: piece_gift2
+
+ Requirements: $item_finewood:4, $item_raspberries:1
+ Pieces: piece_gift3
+
+
+[Info   : Unity Log] 01/24/2024 08:52:55: ZRpc timeout set to 30s 
+
+[Info   : Unity Log] 01/24/2024 08:52:55: ZNET START
+
+[Info   : Unity Log] 01/24/2024 08:52:55: Connecting to server with PlayFab-backend 105E8F34727E4286
+
+[Info   : Unity Log] 01/24/2024 08:52:55: PlayFab socket with remote ID 105E8F34727E4286 sent local Platform ID Steam_76561197962507535
+
+[Info   :AzuCraftyBoxes] Invoking version check
+[Info   :AzuMapDetails] Invoking version check
+[Info   :BowsBeforeHoes] Invoking version check
+[Info   :ProfitablePieces] Invoking version check
+[Info   :Recycle_N_Reclaim] Invoking version check
+[Info   : Unity Log] 01/24/2024 08:53:00: Get Lobby
+Server Name : Deep Space Heim - Experimental
+Server IP : 150.220.73.228:2337
+Game Version : 0.217.38
+Network Version : 20
+Player ID : 105E8F34727E4286
+Players : 2
+Lobby ID : 35a1a47d-43d1-4cab-9795-de228d4281d2.r-20230509
+Network ID : 640e44be-4f18-483e-9b91-ed52ccb5a4fe|AwBCKPDGgiDi1MLm10q0Raxc45Ge2lNvdXRoQ2VudHJhbFVzAAAAAAAAlnepmXpd/Ohe5QQcQyDL8X43thImISbKGj4Y0JB+V5wnZlNkbnMtaXIwLTgxZTUtMTUxYTA2M2QtMWRkZS00MGIyLTg0OTUtMzhiZWJjNGU0OTVkLnNvdXRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ==
+Join Code : 973373
+Platform Restriction : None
+Dedicated : True
+Community : True
+TickCreated : 638417047638335043
+Modifiers : System.Collections.Generic.List`1[System.String]
+
+
+[Info   : Unity Log] 01/24/2024 08:53:00: Joining server 'Deep Space Heim - Experimental' at PlayFab network 640e44be-4f18-483e-9b91-ed52ccb5a4fe|AwBCKPDGgiDi1MLm10q0Raxc45Ge2lNvdXRoQ2VudHJhbFVzAAAAAAAAlnepmXpd/Ohe5QQcQyDL8X43thImISbKGj4Y0JB+V5wnZlNkbnMtaXIwLTgxZTUtMTUxYTA2M2QtMWRkZS00MGIyLTg0OTUtMzhiZWJjNGU0OTVkLnNvdXRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== from lobby 35a1a47d-43d1-4cab-9795-de228d4281d2.r-20230509
+
+[Info   : Unity Log] 01/24/2024 08:53:00: PlayFab client socket to remote player 105E8F34727E4286 joined network 640e44be-4f18-483e-9b91-ed52ccb5a4fe|AwBCKPDGgiDi1MLm10q0Raxc45Ge2lNvdXRoQ2VudHJhbFVzAAAAAAAAlnepmXpd/Ohe5QQcQyDL8X43thImISbKGj4Y0JB+V5wnZlNkbnMtaXIwLTgxZTUtMTUxYTA2M2QtMWRkZS00MGIyLTg0OTUtMzhiZWJjNGU0OTVkLnNvdXRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ==
+
+[Info   : Unity Log] 01/24/2024 08:53:00: ZRpc timeout set to 90s 
+
+[Info   : Unity Log] 01/24/2024 08:53:00: PlayFab socket connected to remote player 105E8F34727E4286
+
+[Info   : Unity Log] 01/24/2024 08:53:00: Muted PlayFab remote player 105E8F34727E4286
+
+[Info   :AzuAreaRepair] Version check, local: 1.1.3,  remote: 1.1.3
+[Info   :AzuAreaRepair] Received same version from server!
+[Info   : Unity Log] Received AzuAreaRepair version 1.1.3 and minimum version 1.1.3 from the server.
+[Info   :AzuCraftyBoxes] Version check, local: 1.2.6,  remote: 1.2.6
+[Info   :AzuCraftyBoxes] Received same version from server!
+[Info   : Unity Log] Received AzuCraftyBoxes version 1.2.6 and minimum version 1.2.6 from the server.
+[Info   :AzuMapDetails] Version check, local: 1.0.2,  remote: 1.0.2
+[Info   :AzuMapDetails] Received same version from server!
+[Info   : Unity Log] Received AzuMapDetails version 1.0.2 and minimum version 1.0.2 from the server.
+[Info   : Unity Log] Received AzuMiscPatches version 1.2.0 and minimum version 1.2.0 from the server.
+[Info   : Unity Log] Received Backpacks version 1.3.3 and minimum version 1.3.3 from the server.
+[Info   : Unity Log] Received org.bepinex.plugins.backpacks ItemManager version 1.3.3 and minimum version 0.0.0 from the server.
+[Info   :BowsBeforeHoes] Version check, local: 1.2.9 remote: 1.2.9
+[Info   :BowsBeforeHoes] Received same version from server!
+[Info   : Unity Log] Received BowsBeforeHoes version 1.2.9 and minimum version 1.2.9 from the server.
+[Info   : Unity Log] Received Azumatt.BowsBeforeHoes ItemManager version 1.2.9 and minimum version 0.0.0 from the server.
+[Info   : Unity Log] Received HaulersHelper version 1.0.2 and minimum version 1.0.2 from the server.
+[Info   :ProfitablePieces] Version check, local: 1.0.2,  remote: 1.0.2
+[Info   :ProfitablePieces] Received same version from server!
+[Info   : Unity Log] Received ProfitablePieces version 1.0.2 and minimum version 1.0.2 from the server.
+[Info   :Recycle_N_Reclaim] Hash/Version check, local: 1.3.1 8D7FF989636597CCF9E609E6E852158F3A486F5361EC5E1BF0B52119D735757F remote: 1.3.1 8D7FF989636597CCF9E609E6E852158F3A486F5361EC5E1BF0B52119D735757F
+[Info   :Recycle_N_Reclaim] Received same version from server!
+[Info   : Unity Log] Received Recycle_N_Reclaim version 1.3.1 and minimum version 1.3.1 from the server.
+[Info   : Unity Log] Received Blacksmithing version 1.2.5 and minimum version 1.2.5 from the server.
+[Info   : Unity Log] Received Building version 1.2.5 and minimum version 1.2.5 from the server.
+[Info   : Unity Log] Received Conversion Size & Speed version 1.0.15 and minimum version 1.0.15 from the server.
+[Info   : Unity Log] Received Cooking version 1.1.15 and minimum version 1.1.15 from the server.
+[Info   : Unity Log] Received Darwin Awards version 1.0.6 and minimum version 1.0.6 from the server.
+[Info   : Unity Log] Received org.bepinex.plugins.evasion SkillManager version 1.0.3 and minimum version 0.0.0 from the server.
+[Info   : Unity Log] Received Exploration version 1.0.2 and minimum version 1.0.2 from the server.
+[Info   : Unity Log] Received Farming version 2.1.12 and minimum version 2.1.12 from the server.
+[Info   : Unity Log] Received Foraging version 1.0.8 and minimum version 1.0.8 from the server.
+[Info   : Unity Log] Received Lumberjacking version 1.0.5 and minimum version 0.0.0 from the server.
+[Info   : Unity Log] Received Mining version 1.1.5 and minimum version 1.1.5 from the server.
+[Info   : Unity Log] Received org.bepinex.plugins.packhorse SkillManager version 1.0.3 and minimum version 0.0.0 from the server.
+[Info   : Unity Log] Received Professions version 1.4.1 and minimum version 1.4.1 from the server.
+[Info   : Unity Log] Received Ranching version 1.1.3 and minimum version 1.1.3 from the server.
+[Info   : Unity Log] Received Resurrection version 1.0.11 and minimum version 1.0.11 from the server.
+[Info   : Unity Log] Received Sailing version 1.1.7 and minimum version 1.1.7 from the server.
+[Info   : Unity Log] Received org.bepinex.plugins.tenacity SkillManager version 1.0.3 and minimum version 0.0.0 from the server.
+[Info   : Unity Log] Received Timed Item Destruction version 1.0.3 and minimum version 1.0.3 from the server.
+[Info   : Unity Log] Received Vitality version 1.1.2 and minimum version 1.1.2 from the server.
+[Info   : Unity Log] Received 3 configs and 0 custom values from the server for mod AzuAreaRepair
+[Info   : Unity Log] Received 3 configs and 2 custom values from the server for mod AzuCraftyBoxes
+[Info   : Unity Log] Received 9 configs and 0 custom values from the server for mod AzuMapDetails
+[Info   : Unity Log] Received 18 configs and 0 custom values from the server for mod AzuMiscPatches
+[Info   : Unity Log] Received 10 configs and 1 custom values from the server for mod Backpacks
+[Info   : Unity Log] Received 6 configs and 0 custom values from the server for mod BowsBeforeHoes
+[Info   : Unity Log] Received 15 configs and 0 custom values from the server for mod HaulersHelper
+[Info   : Unity Log] Received 5 configs and 0 custom values from the server for mod ProfitablePieces
+[Info   : Unity Log] Received 22 configs and 1 custom values from the server for mod Recycle_N_Reclaim
+[Info   : Unity Log] Received 15 configs and 0 custom values from the server for mod Blacksmithing
+[Info   : Unity Log] Received 9 configs and 0 custom values from the server for mod Building
+[Info   : Unity Log] 01/24/2024 08:53:03: Session auth respons callback
+
+[Info   : Unity Log] Received 32 configs and 0 custom values from the server for mod Conversion Size & Speed
+[Info   : Unity Log] Received 10 configs and 0 custom values from the server for mod Cooking
+[Info   : Unity Log] Received 1 configs and 1 custom values from the server for mod Darwin Awards
+[Info   : Unity Log] Received 3 configs and 0 custom values from the server for mod org.bepinex.plugins.evasion SkillManager
+[Info   : Unity Log] Received 10 configs and 0 custom values from the server for mod Exploration
+[Info   : Unity Log] Received 10 configs and 0 custom values from the server for mod Farming
+[Info   : Unity Log] Received 8 configs and 0 custom values from the server for mod Foraging
+[Info   : Unity Log] Received 7 configs and 0 custom values from the server for mod Lumberjacking
+[Info   : Unity Log] Received 7 configs and 0 custom values from the server for mod Mining
+[Info   : Unity Log] Received 3 configs and 0 custom values from the server for mod org.bepinex.plugins.packhorse SkillManager
+[Info   : Unity Log] Received 16 configs and 0 custom values from the server for mod Professions
+[Info   : Unity Log] Received 8 configs and 0 custom values from the server for mod Ranching
+[Info   : Unity Log] Received 5 configs and 0 custom values from the server for mod Resurrection
+[Info   : Unity Log] Received 19 configs and 0 custom values from the server for mod Sailing
+[Info   : Unity Log] Received 3 configs and 0 custom values from the server for mod org.bepinex.plugins.tenacity SkillManager
+[Info   : Unity Log] Received 5 configs and 0 custom values from the server for mod Timed Item Destruction
+[Info   : Unity Log] Received 9 configs and 0 custom values from the server for mod Vitality
+[Info   : Unity Log] Received 15 configs and 0 custom values from the server for mod org.bepinex.plugins.backpacks ItemManager
+[Info   : Unity Log] Received 315 configs and 0 custom values from the server for mod Azumatt.BowsBeforeHoes ItemManager
+[Info   : Unity Log] 01/24/2024 08:53:03: Network version check, their:20, mine:20
+
+[Info   : Unity Log] 01/24/2024 08:53:03: Worldgenerator version setup:2
+
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Authoritative Config Registered -> AuthoritativeConfig_nex.SpeedyPaths
+[Info   : Unity Log] Speedy Paths Mod: Authoritative Config Requested -> AuthoritativeConfig_nex.SpeedyPaths
+[Info   : Unity Log] 01/24/2024 08:53:11: Unpacking compressed mapdata 11249
+
+[Info   : Unity Log] 01/24/2024 08:53:11: Starting respawn
+
+[Info   : Unity Log] 01/24/2024 08:53:11: tip:$loadscreen_tip19
+
+[Info   : Unity Log] 01/24/2024 08:53:11: client got keys 4
+
+[Info   : Unity Log] 01/24/2024 08:53:11: client got location icons
+
+[Info   : Unity Log] 01/24/2024 08:53:11: Icons:1
+
+[Info   :Jotunn.Managers.SynchronizationManager+<AdminRPC_OnClientReceive>d__43] Received admin status from server: Admin
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => Hud.BuffIcon +1: 1
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => Hud.BuffIcon +2: 1.39
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => Hud.DebuffIcon -1: 1
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => Hud.DebuffIcon -2: 0.79
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => Performance.Ground Sensor Interval: 1
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => Performance.Ground Sensor Radius: 1
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => SpeedModifiers.DirtPathSpeed: 1.15
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => SpeedModifiers.StonePathSpeed: 1.4
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => SpeedModifiers.CultivatedSpeed: 1
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => SpeedModifiers.StructureWoodSpeed: 1.25
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => SpeedModifiers.StructureHardWoodSpeed: 1.4
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => SpeedModifiers.StructureStoneSpeed: 1.4
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => SpeedModifiers.StructureIronSpeed: 1.4
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => SpeedModifiers.StructureMarbleSpeed: 1.4
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => StaminaModifiers.DirtPathStamina: 0.8
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => StaminaModifiers.StonePathStamina: 0.7
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => StaminaModifiers.CultivatedStamina: 1
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => StaminaModifiers.StructureWoodStamina: 0.8
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => StaminaModifiers.StructureHardWoodStamina: 0.8
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => StaminaModifiers.StructureStoneStamina: 0.7
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => StaminaModifiers.StructureIronStamina: 0.7
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => StaminaModifiers.StructureMarbleStamina: 0.7
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => SpeedModifiers_Biomes.Untamed_None_Speed: 1
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => StaminaModifiers_Biomes.Untamed_None_Stamina: 1
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => Strings.Biome_None: default
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => SpeedModifiers_Biomes.Untamed_Meadows_Speed: 1
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => StaminaModifiers_Biomes.Untamed_Meadows_Stamina: 1
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => Strings.Biome_Meadows: default
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => SpeedModifiers_Biomes.Untamed_Swamp_Speed: 1
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => StaminaModifiers_Biomes.Untamed_Swamp_Stamina: 1
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => Strings.Biome_Swamp: default
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => SpeedModifiers_Biomes.Untamed_Mountain_Speed: 1
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => StaminaModifiers_Biomes.Untamed_Mountain_Stamina: 1
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => Strings.Biome_Mountain: default
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => SpeedModifiers_Biomes.Untamed_BlackForest_Speed: 1
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => StaminaModifiers_Biomes.Untamed_BlackForest_Stamina: 1
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => Strings.Biome_BlackForest: default
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => SpeedModifiers_Biomes.Untamed_Plains_Speed: 1
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => StaminaModifiers_Biomes.Untamed_Plains_Stamina: 1
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => Strings.Biome_Plains: default
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => SpeedModifiers_Biomes.Untamed_AshLands_Speed: 1
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => StaminaModifiers_Biomes.Untamed_AshLands_Stamina: 1
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => Strings.Biome_AshLands: default
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => SpeedModifiers_Biomes.Untamed_DeepNorth_Speed: 1
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => StaminaModifiers_Biomes.Untamed_DeepNorth_Stamina: 1
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => Strings.Biome_DeepNorth: default
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => SpeedModifiers_Biomes.Untamed_Ocean_Speed: 1
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => StaminaModifiers_Biomes.Untamed_Ocean_Stamina: 1
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => Strings.Biome_Ocean: default
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => SpeedModifiers_Biomes.Untamed_Mistlands_Speed: 1
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => StaminaModifiers_Biomes.Untamed_Mistlands_Stamina: 1
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => Strings.Biome_Mistlands: default
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => Strings.PathDirt: Dirt Path
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => Strings.PathStone: Stone Path
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => Strings.Cultivated: Cultivated
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => Strings.StructureWood: Wood
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => Strings.StructureHardWood: Hardwood
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => Strings.StructureStone: Stone
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => Strings.StructureIron: Iron
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied Server Authoritative config pair => Strings.StructureMarble: Marble
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Applied 60 config pairs
+[Info   : Unity Log] 01/24/2024 08:53:15: Force generating hmap (-640.00, 0.00, -320.00)
+
+[Info   : Unity Log] 01/24/2024 08:53:19: Spawned after 8.019994
+
+[Info   :PlanBuild.Blueprints.BlueprintManager] Registering known blueprints
+[Info   : Unity Log] 01/24/2024 08:53:19: Skipping unloading unused assets
+
+[Info   : Unity Log] 01/24/2024 08:53:19: Minimap: Adding unique location (-0.01, 33.19, -197.31)
+
+[Info   :AzuMiscPatches] Admin status verified.
+[Info   : Unity Log] 01/24/2024 08:53:21: Starting music home
+
+[Info   : Unity Log] 01/24/2024 08:53:21: Resumed music home at 0
+
+[Info   : Unity Log] 01/24/2024 08:53:52: Stopped music home at 1355692
+
+[Info   : Unity Log] 01/24/2024 08:53:52: Starting music meadows
+
+[Info   : Unity Log] 01/24/2024 08:53:52: Resumed music meadows at 0
+
+[Info   : Unity Log] 01/24/2024 08:54:02: Setting selected recipe 0
+
+[Info   : Unity Log] 01/24/2024 08:54:09: adding Stone  1
+
+[Info   : Unity Log] 01/24/2024 08:54:09: adding Stone  1
+
+[Info   : Unity Log] 01/24/2024 08:54:09: adding Stone  1
+
+[Info   : Unity Log] 01/24/2024 08:54:22: Setting selected recipe 1
+
+[Info   : Unity Log] 01/24/2024 08:54:27: Loading dungeon
+
+[Info   : Unity Log] 01/24/2024 08:54:27: Dungeon loaded with 11 rooms in 45.0649 ms.
+
+[Info   : Unity Log] 01/24/2024 08:54:35: Setting selected recipe 0
+
+[Info   : Unity Log] 01/24/2024 08:54:39: Setting selected recipe 0
+
+[Info   : Unity Log] 01/24/2024 08:54:40: Setting selected recipe 0
+
+[Info   : Unity Log] 01/24/2024 08:54:42: adding Wood  1
+
+[Info   : Unity Log] 01/24/2024 08:54:43: adding Wood  1
+
+[Info   : Unity Log] 01/24/2024 08:55:02: Loading dungeon
+
+[Info   : Unity Log] 01/24/2024 08:55:03: Dungeon loaded with 11 rooms in 41.385 ms.
+
+[Info   : Unity Log] 01/24/2024 08:55:04: adding Wood  1
+
+[Info   : Unity Log] 01/24/2024 08:55:12: adding Dandelion  1
+
+[Info   : Unity Log] 01/24/2024 08:55:12: adding Dandelion  1
+
+[Info   : Unity Log] 01/24/2024 08:55:12: Refresh complete 8485  eServerResponded
+
+[Info   : Unity Log] 01/24/2024 08:55:22: Uncompressed size 8389804
+
+[Info   : Unity Log] 01/24/2024 08:55:22: Compressed size 11249
+
+[Info   : Unity Log] 01/24/2024 08:55:22: Considering autobackup. World time: 137.94, short time: 7200, long time: 43200, backup count: 4
+
+[Info   : Unity Log] 01/24/2024 08:55:22: Skipping backup. World session not long enough.
+
+[Info   : Unity Log] 01/24/2024 08:55:23: Game - OnApplicationQuit
+
+[Info   : Unity Log] 01/24/2024 08:55:23: Shuting down
+
+[Info   : Unity Log] 01/24/2024 08:55:23: Uncompressed size 8389804
+
+[Info   : Unity Log] 01/24/2024 08:55:23: Compressed size 11249
+
+[Info   : Unity Log] 01/24/2024 08:55:23: Considering autobackup. World time: 139.12, short time: 7200, long time: 43200, backup count: 4
+
+[Info   : Unity Log] 01/24/2024 08:55:23: Skipping backup. World session not long enough.
+
+[Info   : Unity Log] 01/24/2024 08:55:23: ZNet Shutdown
+
+[Info   : Unity Log] 01/24/2024 08:55:23: Unloading unused assets
+
+[Info   : Unity Log] 01/24/2024 08:55:23: Sending disconnect msg
+
+[Info   : Unity Log] 01/24/2024 08:55:23: Sent to playfab/105E8F34727E4286
+
+[Info   : Unity Log] 01/24/2024 08:55:23: Released session ticket
+
+[Info   : Unity Log] ZPlayFabMatchmaking::UnregisterServer - unregistering server now. State: Uninitialized
+[Info   : Unity Log] ZPlayFabSocket::Dispose. State: CONNECTED
+[Info   : Unity Log] ZPlayFabSocket::Dispose. leave lobby. LobbyId: 35a1a47d-43d1-4cab-9795-de228d4281d2.r-20230509
+[Info   : Unity Log] ZPlayFabSocket::Dispose. State: CLOSED
+[Info   : Unity Log] 01/24/2024 08:55:23: Stopping build thread
+
+[Info   : Unity Log] 01/24/2024 08:55:26: Steam manager on destroy
+
+[Info   : Unity Log] 01/24/2024 08:55:26: ZNet OnDestroy
+
+[Info   : Unity Log] 01/24/2024 08:55:26: Net scene destroyed
+
+[Info   :BowsBeforeHoes] Destroying Quiver
+[Warning: Unity Log] 01/24/2024 08:55:27: Local player destroyed
 
