@@ -1,0 +1,290 @@
+[Message:   BepInEx] BepInEx 5.4.22.0 - valheim (12/23/2023 7:50:43 PM)
+[Message:   BepInEx] User is running BepInExPack Valheim version 5.4.2202 from Thunderstore
+[Info   :   BepInEx] Running under Unity v2022.3.12.5236448
+[Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
+[Info   :   BepInEx] Supports SRE: True
+[Info   :   BepInEx] System platform: Bits64, Windows
+[Message:   BepInEx] Preloader started
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.22.0]
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.MonoMod.HookGenPatcher 1.2.0.0]
+[Info   :   BepInEx] 2 patcher plugins loaded
+[Info   :   Console] [MonoMod] 
+[Info   :   Console] Reading input file into module.
+[Info   :HookGenPatcher] Starting HookGenerator
+[Info   :HookGenPatcher] Done.
+[Info   :   Console] [MonoMod] 
+[Info   :   Console] Reading input file into module.
+[Info   :HookGenPatcher] Starting HookGenerator
+[Info   :HookGenPatcher] Done.
+[Info   :   Console] [MonoMod] 
+[Info   :   Console] Reading input file into module.
+[Info   :HookGenPatcher] Starting HookGenerator
+[Info   :HookGenPatcher] Done.
+[Info   :   Console] [MonoMod] 
+[Info   :   Console] Reading input file into module.
+[Info   :HookGenPatcher] Starting HookGenerator
+[Info   :HookGenPatcher] Done.
+[Info   :   Console] [MonoMod] 
+[Info   :   Console] Reading input file into module.
+[Info   :HookGenPatcher] Starting HookGenerator
+[Info   :HookGenPatcher] Done.
+[Info   :   Console] [MonoMod] 
+[Info   :   Console] Reading input file into module.
+[Info   :HookGenPatcher] Starting HookGenerator
+[Info   :HookGenPatcher] Done.
+[Info   :   Console] [MonoMod] 
+[Info   :   Console] Reading input file into module.
+[Info   :HookGenPatcher] Starting HookGenerator
+[Info   :HookGenPatcher] Done.
+[Info   :   Console] [MonoMod] 
+[Info   :   Console] Reading input file into module.
+[Info   :HookGenPatcher] Starting HookGenerator
+[Info   :HookGenPatcher] Done.
+[Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
+[Message:   BepInEx] Preloader finished
+[Message:   BepInEx] Chainloader ready
+[Message:   BepInEx] Chainloader started
+[Info   :   BepInEx] 46 plugins to load
+[Warning:   BepInEx] Skipping [Display BepInEx Info In-Game 2.0.2] because a newer version exists (Display BepInEx Info In-Game 2.0.2)
+[Info   :   BepInEx] Loading [AzuAreaRepair 1.1.3]
+[Info   :   BepInEx] Loading [AzuClock 1.0.2]
+[Info   :   BepInEx] Loading [AzuCraftyBoxes 1.2.6]
+[Info   :   BepInEx] Loading [AzuMapDetails 1.0.2]
+[Info   :   BepInEx] Loading [AzuMiscPatches 1.2.0]
+[Info   :   BepInEx] Loading [Backpacks 1.3.3]
+[Info   : Unity Log] 01/24/2024 09:14:41: Loaded localization file #0 - 'localization' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:41: Loaded localization file #1 - 'localization_extra' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:41: Loaded localization file #2 - 'heightmap_message' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:41: Loaded localization file #3 - 'localization_hildir' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:41: Loaded localization file #4 - 'localization_emotes' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:41: Loaded localization file #0 - 'localization' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:41: Loaded localization file #1 - 'localization_extra' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:41: Loaded localization file #2 - 'heightmap_message' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:41: Loaded localization file #3 - 'localization_hildir' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:41: Loaded localization file #4 - 'localization_emotes' language: 'English'
+
+[Info   :   BepInEx] Loading [BowsBeforeHoes 1.2.9]
+[Info   :   BepInEx] Loading [Configuration Manager 18.2]
+[Info   :   BepInEx] Loading [HaulersHelper 1.0.2]
+[Info   :   BepInEx] Loading [LogoChanger 1.0.9]
+[Info   :   BepInEx] Loading [MouseTweaks 1.0.0]
+[Info   :   BepInEx] Loading [ProfitablePieces 1.0.2]
+[Info   :   BepInEx] Loading [Queue_Me_Maybe 1.1.1]
+[Info   :   BepInEx] Loading [Recycle_N_Reclaim 1.3.1]
+[Info   :   BepInEx] Loading [FloatingItems 1.0.0]
+[Info   :   BepInEx] Loading [Dryzler's Sort Everything Into Chests 1.0.3]
+[Info   :   BepInEx] Loading [InfiniteTorches 0.0.1]
+[Info   :   BepInEx] Loading [Jotunn 2.16.2]
+[Info   :Jotunn.Main] Initializing ModCompatibility
+[Info   :Jotunn.Main] Initializing SynchronizationManager
+[Info   :Jotunn.Main] Initializing NetworkManager
+[Info   :   BepInEx] Loading [MultiplayerTweaks 0.9.0]
+[Info   :MultiplayerTweaks] Watch me Tweak, now watch me Neigh Neigh.
+[Info   :   BepInEx] Loading [PlanBuild 0.14.7]
+[Info   :Jotunn.Main] Initializing InputManager
+[Info   :Jotunn.Main] Initializing GUIManager
+[Info   :Jotunn.Main] Initializing MockManager
+[Info   :Jotunn.Main] Initializing PieceManager
+[Info   :Jotunn.Main] Initializing PrefabManager
+[Info   :Jotunn.Main] Initializing LocalizationManager
+[Info   :Jotunn.Main] Initializing ItemManager
+[Info   :PlanBuild.Blueprints.BlueprintManager] Initializing BlueprintManager
+[Info   :Jotunn.Main] Initializing CommandManager
+[Info   :PlanBuild.Blueprints.BlueprintSync] Loading known blueprints
+[Warning:PlanBuild.Blueprints.BlueprintSync] Could not load blueprint .\ds9patcher\backup\BepInEx\config\PlanBuild\blueprints\Shitty Game_My_House.blueprint: System.IndexOutOfRangeException: Index was outside the bounds of the array.
+  at PlanBuild.Blueprints.PieceEntry.FromBlueprint (System.String line) [0x0004e] in <787fcd34337844b082ec8eed172311d8>:0 
+  at PlanBuild.Blueprints.Blueprint.FromArray (System.String id, System.String[] lines, PlanBuild.Blueprints.Blueprint+Format format) [0x00205] in <787fcd34337844b082ec8eed172311d8>:0 
+  at PlanBuild.Blueprints.Blueprint.FromFile (System.String fileLocation) [0x0006c] in <787fcd34337844b082ec8eed172311d8>:0 
+  at PlanBuild.Blueprints.BlueprintSync.GetLocalBlueprints () [0x000a3] in <787fcd34337844b082ec8eed172311d8>:0 
+[Warning:PlanBuild.Blueprints.BlueprintSync] Could not load blueprint .\ds9patcher\backup\BepInEx\config\PlanBuild\blueprints\bakery1.vbuild: System.IndexOutOfRangeException: Index was outside the bounds of the array.
+  at PlanBuild.Blueprints.PieceEntry.FromVBuild (System.String line) [0x0003f] in <787fcd34337844b082ec8eed172311d8>:0 
+  at PlanBuild.Blueprints.Blueprint.FromArray (System.String id, System.String[] lines, PlanBuild.Blueprints.Blueprint+Format format) [0x001f6] in <787fcd34337844b082ec8eed172311d8>:0 
+  at PlanBuild.Blueprints.Blueprint.FromFile (System.String fileLocation) [0x0006c] in <787fcd34337844b082ec8eed172311d8>:0 
+  at PlanBuild.Blueprints.BlueprintSync.GetLocalBlueprints () [0x000a3] in <787fcd34337844b082ec8eed172311d8>:0 
+[Info   :Jotunn.Main] Initializing UndoManager
+[Info   :Jotunn.Main] Initializing KitbashManager
+[Info   :PlanBuild.Plans.PlanManager] Initializing PlanManager
+[Info   :   BepInEx] Loading [Automatics 1.5.1]
+[Info   :   BepInEx] Loading [Speedy Paths Mod 1.0.8]
+[Info   :AuthoritativeConfig_nex.SpeedyPaths] Initialized Server Authoritative Config Manager.
+[Info   :   BepInEx] Loading [Anti Censorship 1.0.2]
+[Info   :   BepInEx] Loading [Blacksmithing 1.2.5]
+[Info   :   BepInEx] Loading [Building 1.2.5]
+[Info   :   BepInEx] Loading [Conversion Size & Speed 1.0.15]
+[Info   :   BepInEx] Loading [Cooking 1.1.15]
+[Info   :   BepInEx] Loading [Darwin Awards 1.0.6]
+[Info   :   BepInEx] Loading [Evasion 1.0.3]
+[Info   :   BepInEx] Loading [Exploration 1.0.2]
+[Info   :   BepInEx] Loading [Farming 2.1.12]
+[Info   :   BepInEx] Loading [Foraging 1.0.8]
+[Info   :   BepInEx] Loading [Lumberjacking 1.0.5]
+[Info   :   BepInEx] Loading [Mining 1.1.5]
+[Info   :   BepInEx] Loading [Network 1.0.2]
+[Info   :   BepInEx] Loading [PackHorse 1.0.3]
+[Info   :   BepInEx] Loading [Professions 1.4.1]
+[Info   :   BepInEx] Loading [Ranching 1.1.3]
+[Info   :   BepInEx] Loading [Resurrection 1.0.11]
+[Info   :   BepInEx] Loading [Sailing 1.1.7]
+[Info   :   BepInEx] Loading [Smooth Save 1.0.5]
+[Info   :   BepInEx] Loading [Tenacity 1.0.3]
+[Info   :   BepInEx] Loading [Timed Item Destruction 1.0.3]
+[Info   :   BepInEx] Loading [Vitality 1.1.2]
+[Info   :   BepInEx] Loading [Display BepInEx Info In-Game 2.0.2]
+[Message:   BepInEx] Chainloader startup complete
+[Warning: Unity Log] 01/24/2024 09:14:48: Fetching PlatformPrefs 'GuiScale' before loading defaults
+
+[Warning: Unity Log] 01/24/2024 09:14:48: Fetching PlatformPrefs 'GuiScale' before loading defaults
+
+[Warning: Unity Log] Privilege Multiplayer is not known on this platform. Privilege therefore is granted without check...
+[Warning: Unity Log] Privilege UserGeneratedContent is not known on this platform. Privilege therefore is granted without check...
+[Warning: Unity Log] Privilege CrossPlay is not known on this platform. Privilege therefore is granted without check...
+[Info   : Unity Log] 01/24/2024 09:14:48: Starting to load scene:start
+
+[Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Amb_MainMenu).
+[Info   : Unity Log] 01/24/2024 09:14:55: Loaded localization file #0 - 'localization' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:55: Loaded localization file #1 - 'localization_extra' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:55: Loaded localization file #2 - 'heightmap_message' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:55: Loaded localization file #3 - 'localization_hildir' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:55: Loaded localization file #4 - 'localization_emotes' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:55: Loaded localization file #0 - 'localization' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:55: Loaded localization file #1 - 'localization_extra' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:55: Loaded localization file #2 - 'heightmap_message' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:55: Loaded localization file #3 - 'localization_hildir' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:55: Loaded localization file #4 - 'localization_emotes' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:55: Loaded localization file #0 - 'localization' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:55: Loaded localization file #1 - 'localization_extra' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:55: Loaded localization file #2 - 'heightmap_message' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:55: Loaded localization file #3 - 'localization_hildir' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:55: Loaded localization file #4 - 'localization_emotes' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:55: Using steam_appid.txt
+
+[Info   : Unity Log] 01/24/2024 09:14:55: Using steam APPID:892970
+
+[Info   : Unity Log] 01/24/2024 09:14:55: Authentication:k_ESteamNetworkingAvailability_Attempting
+
+[Info   : Unity Log] 01/24/2024 09:14:55: Steam initialized, persona:CHris?
+
+[Info   : Unity Log] 01/24/2024 09:14:55: PlayFab custom ID set to "Steam_76561197962507535"
+
+[Info   : Unity Log] 01/24/2024 09:14:55: Using default prefs
+
+[Info   : Unity Log] 01/24/2024 09:14:55: Valheim version: 0.217.38 (network version 20)
+
+[Info   : Unity Log] Trying to set graphic mode to 'Custom'
+[Info   : Unity Log] Graphic mode 'Custom' is not or no longer supported. Fallback to default mode for platform...
+[Info   : Unity Log] Graphic mode 'Custom' applied!
+[Info   : Unity Log] 01/24/2024 09:14:55: Worldgenerator version setup:2
+
+[Info   :Jotunn.Managers.CommandManager] Adding 19 commands to the Console
+[Info   : Unity Log] 01/24/2024 09:14:55: Render threading mode:MultiThreaded
+
+[Warning: Unity Log] 01/24/2024 09:14:56: Set button "CamZoomIn" to None!
+
+[Warning: Unity Log] 01/24/2024 09:14:56: Set button "CamZoomOut" to None!
+
+[Warning: Unity Log] 01/24/2024 09:14:56: Set button "CamZoomIn" to None!
+
+[Warning: Unity Log] 01/24/2024 09:14:56: Set button "CamZoomOut" to None!
+
+[Info   :Jotunn.Managers.InputManager] Registering 5 custom inputs
+[Warning: Unity Log] 01/24/2024 09:14:56: Missing audio clip in music respawn
+
+[Info   : Unity Log] 01/24/2024 09:14:56: Checking for installed DLCs
+
+[Info   : Unity Log] 01/24/2024 09:14:56: DLC:beta installed:False
+
+[Info   :Jotunn.Main] Initializing KeyHintManager
+[Info   :Jotunn.Managers.KitbashManager] Applying Kitbash in 1 objects
+[Info   :Jotunn.Managers.ItemManager] Adding 3 custom items to the ObjectDB
+[Info   : Unity Log] 01/24/2024 09:14:56: Loaded localization file #0 - 'localization' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:56: Loaded localization file #1 - 'localization_extra' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:56: Loaded localization file #2 - 'heightmap_message' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:56: Loaded localization file #3 - 'localization_hildir' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:56: Loaded localization file #4 - 'localization_emotes' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:56: Loaded localization file #0 - 'localization' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:56: Loaded localization file #1 - 'localization_extra' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:56: Loaded localization file #2 - 'heightmap_message' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:56: Loaded localization file #3 - 'localization_hildir' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:56: Loaded localization file #4 - 'localization_emotes' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:56: Loaded localization file #0 - 'localization' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:56: Loaded localization file #1 - 'localization_extra' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:57: Loaded localization file #2 - 'heightmap_message' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:57: Loaded localization file #3 - 'localization_hildir' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:57: Loaded localization file #4 - 'localization_emotes' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:57: Loaded localization file #0 - 'localization' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:57: Loaded localization file #1 - 'localization_extra' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:57: Loaded localization file #2 - 'heightmap_message' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:57: Loaded localization file #3 - 'localization_hildir' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:57: Loaded localization file #4 - 'localization_emotes' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:57: Loaded localization file #0 - 'localization' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:57: Loaded localization file #1 - 'localization_extra' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:57: Loaded localization file #2 - 'heightmap_message' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:57: Loaded localization file #3 - 'localization_hildir' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:57: Loaded localization file #4 - 'localization_emotes' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:57: Loaded localization file #0 - 'localization' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:57: Loaded localization file #1 - 'localization_extra' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:57: Loaded localization file #2 - 'heightmap_message' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:57: Loaded localization file #3 - 'localization_hildir' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:57: Loaded localization file #4 - 'localization_emotes' language: 'English'
+
+[Info   : Unity Log] 01/24/2024 09:14:57: Sending PlayFab login request (attempt 1)
+
+[Info   : Unity Log] 01/24/2024 09:14:57: Starting music menu
+
+[Info   : Unity Log] 01/24/2024 09:14:58: PlayFab logged in as "Steam_76561197962507535"
+
+[Info   : Unity Log] 01/24/2024 09:14:58: PlayFab local entity ID is C4118A0ACDC9A0CA
+
