@@ -1,3 +1,102 @@
+or ```@MarcoPogo```.
+
+## Configuration
+
+A lot aspects of this mod are configurable either through the config file found in your game folder (```<Valheim>\BepInEx\configs\marcopogo.PlanBuild.cfg```) or using the [BepInEx ConfigurationManager](https://github.com/BepInEx/BepInEx.ConfigurationManager):
+* __Server Settings__ (enforced on all clients connecting to a server)
+  * __Allow blueprint rune__: Allow usage of blueprint rune for clients connecting to the server. Admins are always allowed to use it. (default __true__)
+  * __Allow direct build__: Allow placement of blueprints without materials on this server. Admins are always allowed to use it. (default __false__)
+  * __Allow terrain tools__: Allow usage of the terrain modification tools on this server. Admins are always allowed to use them. (default __false__)
+  * __Allow serverside blueprints__: Allow sharing of blueprints on this server. (default __false__)
+  * __Allow clients to use the GUI toggle key__: Allow clients to use the Hotkey to access server blueprints. Admins are always allowed to use it. (default __true__)
+  * __Excluded plan prefabs__: Comma separated list of prefab names to exclude from the planned piece table on this server. Admins are always allowed to build them.
+* __Blueprints__
+  * __Default build mode__: Default build mode when placing blueprints. (default __Plan__)
+  * __Unlimited health__: Set Piece health to its maximum value when directly building blueprints. (default __false__)
+  * __Place distance__: Place distance while using the Blueprint Rune. (default __50__)
+  * __Terrain smoothing__: Smoothing value of the terrain tool when flattening with smoothing modifier key pressed. (default __0.5__)
+  * __Camera offset increment__: Camera height change when holding the camera modifier key and scrolling. (default __2__)
+  * __Invert camera offset scroll__: Invert the direction of camera offset scrolling. (default __false__)
+  * __Placement offset increment__: Placement height change when holding the modifier key and scrolling. (default __0.1__)
+  * __Invert placement height change scroll__: Invert the direction of placement offset scrolling. (default __false__)
+  * __Selection increment__: Selection radius increment when scrolling. (default __1__)
+  * __Invert selection scroll__: Invert the direction of selection scrolling. (default __false__)
+  * __Selection connected check margin__: Distance of the shell used to check for connectedness. (default __0.01__)
+  * __Show the transform bound grid__: Shows a grid around the blueprints' bounds to visualize the blueprints' edges. (default __false__)
+  * __Tooltip enabled__: Show a tooltip with a bigger thumbnail for blueprint pieces. (default __true__)
+  * __Tooltip Color__: Set the background color for the tooltip on blueprint pieces.
+  * __Undo queue name__: Global name of the blueprint undo queue used for bp.undo and bp.redo commands. Can be set to the same value as other mods' config (if supported) to combine their undo queues. (default __blueprintqueue__)
+  * __Add player prefix to file name__: Add your current player profile name to any blueprint file created with that player. (default __true__)
+* __Directories__
+  * __Blueprint search directory__ Base directory to scan (recursively) for blueprints and vbuild files, relative paths are relative to the valheim.exe location (default __.__)
+  * __Save directory__: Directory to save blueprint files, relative paths are relative to the valheim.exe location (default __BepInEx/config/PlanBuild/blueprints__)
+* __Keybindings__
+  * __Blueprint Marketplace GUI toggle key__: Hotkey to show the blueprint marketplace GUI (default __End__)
+  * __ShiftModifier__: First modifier key to change behaviours on various tools (default __LeftShift__)
+  * __CtrlModifier__: Second modifier key to change behaviours on various tools (default __LeftCtrl__)
+  * __AltModifier__: Third modifier key to change behaviours on various tools (default __LeftAlt__)
+  * __Toggle__: Key to switch between modes on various tools. (default __Q__)
+* __Plans__:
+  * __Plan unknown pieces__: Show all plans, even for pieces you don't know yet. (default __false__)
+  * __Plan totem build radius__: Build radius of the plan totem (default __30__)
+  * __Plan totem particle effects__: Show particle effects when building pieces with the plan totem. (default __true__)
+* __Visual__
+  * __Transparent Ghost Placement__: Apply plan shader to ghost placement (currently placing piece). (default __true__)
+  * __Unsupported color__: Color of unsupported plan pieces.
+  * __Supported color__: Color of supported plan pieces.
+  * __Transparency__: Additional transparency for finer control. (default __30%__)
+  * __Plan totem glow color__: Color of the glowing lines on the Plan totem.
+    
+## Console commands
+
+PlanBuild adds some new console commands to the game:
+* __plan.blacklist.print__ - Print out the server's plan blacklist
+* __plan.blacklist.add__ - [prefab_name] Add a prefab to the server's plan blacklist
+* __plan.blacklist.remove__ - [prefab_name] Removes a prefab from the server's plan blacklist
+* __bp.local__ - Get the list of your local blueprints
+* __bp.remove__ - [blueprint_id] Remove a local blueprint
+* __bp.push__ - [blueprint_id] Upload a local blueprint to the current connected server
+* __bp.server__ - Get the list of the current connected servers blueprints
+* __bp.pull__ - [blueprint_id] Load a blueprint from the current connected server and add it to your local blueprints
+* __bp.thumbnail__ - [blueprint_id] ([rotation]) Create a new thumbnail for a blueprint from the actual blueprint data, optionally provide additional rotation of the blueprint on the thumbnail
+* __bp.regenthumbnails__ - Create a new thumbnail for all local blueprints
+* __bp.undo__ - Undo your last rune action (build, delete or terrain)
+* __bp.redo__ - Redo your last undone rune action (build, delete or terrain)
+* __bp.clearclipboard__ - Clear the clipboard category of all saved blueprints
+* __selection.gui__ - Show the selection GUI
+* __selection.clear__ - Clears the current selection
+* __selection.copy__ - Copy the current selection as a temporary blueprint
+* __selection.cut__ - Cut out (copy and delete) the current selection as a temporary blueprint
+* __selection.save__ - Save the current selection as a blueprint
+* __selection.delete__ - Delete all prefabs in the current selection
+
+## Building Community
+
+Head over to the [Valheimians](https://www.valheimians.com) page to find a community of builders and share your own creations. PlanBuild blueprints are supported.
+
+## Changelog
+
+Check [the changelog on github](https://github.com/sirskunkalot/PlanBuild/blob/master/CHANGELOG.md) to see what's new.
+
+## Credits
+
+The original PlanBuild mod was created by __[MarcoPogo](https://github.com/MathiasDecrock)__
+
+Blueprint functionality originally created by __[Algorithman](https://github.com/Algorithman)__ & __[Jules](https://github.com/sirskunkalot)__
+
+Blueprint Marketplace GUI created by __[Dreous](https://github.com/imcanida)__
+
+All further coding by __[MarcoPogo](https://github.com/MathiasDecrock)__ & __[Jules](https://github.com/sirskunkalot)__
+
+Special thanks to __[Jere](https://github.com/JereKuusela)__ for exchanging code and ideas
+
+Made with Löve and __[Jötunn](https://github.com/Valheim-Modding/Jotunn)__
+
+## Contact
+
+Source available on GitHub: [https://github.com/sirskunkalot/PlanBuild](https://github.com/sirskunkalot/PlanBuild)﻿. All contributions welcome!
+
+You can find us at the [Jötunn Discord](https://discord.gg/DdUt6g7gyA) (```Jules#7950``` and ```MarcoPogo#6095```).
 # PlanBuild
 
 PlanBuild enables you to plan, copy and share your building creations in Valheim with ease. The mod adds two new tools to the game. The __Plan Hammer__ is used to plan your creations before actually gathering all the materials. When you are happy with your build, you can add the required building materials one by one or use a custom totem to automatically build the pieces for you. The __Blueprint Rune__ lets you copy, save or delete your creations as a single building piece which can also be shared with other players using the mod and also includes terrain modification tools for quick and more precise terraforming without using the Hoe or Cultivator.
@@ -191,102 +290,4 @@ Fully compatible with:
 * [ValheimRAFT](https://www.nexusmods.com/valheim/mods/1136) (partial compat, blueprinting does not work)
 * [ComfyGizmo](https://github.com/redseiko/ValheimMods/releases/tag/ComfyGizmo-v1.3.0)
 
-The Hammer's PieceTable is scanned automatically, mods that add Pieces should be compatible. If you find a mod that adds pieces to the Hammer and they don't show up, please post a bug report with a link to the mod or join the [Jötunn Discord](https://discord.gg/DdUt6g7gyA) and ping ```@Jules``` or ```@MarcoPogo```.
-
-## Configuration
-
-A lot aspects of this mod are configurable either through the config file found in your game folder (```<Valheim>\BepInEx\configs\marcopogo.PlanBuild.cfg```) or using the [BepInEx ConfigurationManager](https://github.com/BepInEx/BepInEx.ConfigurationManager):
-* __Server Settings__ (enforced on all clients connecting to a server)
-  * __Allow blueprint rune__: Allow usage of blueprint rune for clients connecting to the server. Admins are always allowed to use it. (default __true__)
-  * __Allow direct build__: Allow placement of blueprints without materials on this server. Admins are always allowed to use it. (default __false__)
-  * __Allow terrain tools__: Allow usage of the terrain modification tools on this server. Admins are always allowed to use them. (default __false__)
-  * __Allow serverside blueprints__: Allow sharing of blueprints on this server. (default __false__)
-  * __Allow clients to use the GUI toggle key__: Allow clients to use the Hotkey to access server blueprints. Admins are always allowed to use it. (default __true__)
-  * __Excluded plan prefabs__: Comma separated list of prefab names to exclude from the planned piece table on this server. Admins are always allowed to build them.
-* __Blueprints__
-  * __Default build mode__: Default build mode when placing blueprints. (default __Plan__)
-  * __Unlimited health__: Set Piece health to its maximum value when directly building blueprints. (default __false__)
-  * __Place distance__: Place distance while using the Blueprint Rune. (default __50__)
-  * __Terrain smoothing__: Smoothing value of the terrain tool when flattening with smoothing modifier key pressed. (default __0.5__)
-  * __Camera offset increment__: Camera height change when holding the camera modifier key and scrolling. (default __2__)
-  * __Invert camera offset scroll__: Invert the direction of camera offset scrolling. (default __false__)
-  * __Placement offset increment__: Placement height change when holding the modifier key and scrolling. (default __0.1__)
-  * __Invert placement height change scroll__: Invert the direction of placement offset scrolling. (default __false__)
-  * __Selection increment__: Selection radius increment when scrolling. (default __1__)
-  * __Invert selection scroll__: Invert the direction of selection scrolling. (default __false__)
-  * __Selection connected check margin__: Distance of the shell used to check for connectedness. (default __0.01__)
-  * __Show the transform bound grid__: Shows a grid around the blueprints' bounds to visualize the blueprints' edges. (default __false__)
-  * __Tooltip enabled__: Show a tooltip with a bigger thumbnail for blueprint pieces. (default __true__)
-  * __Tooltip Color__: Set the background color for the tooltip on blueprint pieces.
-  * __Undo queue name__: Global name of the blueprint undo queue used for bp.undo and bp.redo commands. Can be set to the same value as other mods' config (if supported) to combine their undo queues. (default __blueprintqueue__)
-  * __Add player prefix to file name__: Add your current player profile name to any blueprint file created with that player. (default __true__)
-* __Directories__
-  * __Blueprint search directory__ Base directory to scan (recursively) for blueprints and vbuild files, relative paths are relative to the valheim.exe location (default __.__)
-  * __Save directory__: Directory to save blueprint files, relative paths are relative to the valheim.exe location (default __BepInEx/config/PlanBuild/blueprints__)
-* __Keybindings__
-  * __Blueprint Marketplace GUI toggle key__: Hotkey to show the blueprint marketplace GUI (default __End__)
-  * __ShiftModifier__: First modifier key to change behaviours on various tools (default __LeftShift__)
-  * __CtrlModifier__: Second modifier key to change behaviours on various tools (default __LeftCtrl__)
-  * __AltModifier__: Third modifier key to change behaviours on various tools (default __LeftAlt__)
-  * __Toggle__: Key to switch between modes on various tools. (default __Q__)
-* __Plans__:
-  * __Plan unknown pieces__: Show all plans, even for pieces you don't know yet. (default __false__)
-  * __Plan totem build radius__: Build radius of the plan totem (default __30__)
-  * __Plan totem particle effects__: Show particle effects when building pieces with the plan totem. (default __true__)
-* __Visual__
-  * __Transparent Ghost Placement__: Apply plan shader to ghost placement (currently placing piece). (default __true__)
-  * __Unsupported color__: Color of unsupported plan pieces.
-  * __Supported color__: Color of supported plan pieces.
-  * __Transparency__: Additional transparency for finer control. (default __30%__)
-  * __Plan totem glow color__: Color of the glowing lines on the Plan totem.
-    
-## Console commands
-
-PlanBuild adds some new console commands to the game:
-* __plan.blacklist.print__ - Print out the server's plan blacklist
-* __plan.blacklist.add__ - [prefab_name] Add a prefab to the server's plan blacklist
-* __plan.blacklist.remove__ - [prefab_name] Removes a prefab from the server's plan blacklist
-* __bp.local__ - Get the list of your local blueprints
-* __bp.remove__ - [blueprint_id] Remove a local blueprint
-* __bp.push__ - [blueprint_id] Upload a local blueprint to the current connected server
-* __bp.server__ - Get the list of the current connected servers blueprints
-* __bp.pull__ - [blueprint_id] Load a blueprint from the current connected server and add it to your local blueprints
-* __bp.thumbnail__ - [blueprint_id] ([rotation]) Create a new thumbnail for a blueprint from the actual blueprint data, optionally provide additional rotation of the blueprint on the thumbnail
-* __bp.regenthumbnails__ - Create a new thumbnail for all local blueprints
-* __bp.undo__ - Undo your last rune action (build, delete or terrain)
-* __bp.redo__ - Redo your last undone rune action (build, delete or terrain)
-* __bp.clearclipboard__ - Clear the clipboard category of all saved blueprints
-* __selection.gui__ - Show the selection GUI
-* __selection.clear__ - Clears the current selection
-* __selection.copy__ - Copy the current selection as a temporary blueprint
-* __selection.cut__ - Cut out (copy and delete) the current selection as a temporary blueprint
-* __selection.save__ - Save the current selection as a blueprint
-* __selection.delete__ - Delete all prefabs in the current selection
-
-## Building Community
-
-Head over to the [Valheimians](https://www.valheimians.com) page to find a community of builders and share your own creations. PlanBuild blueprints are supported.
-
-## Changelog
-
-Check [the changelog on github](https://github.com/sirskunkalot/PlanBuild/blob/master/CHANGELOG.md) to see what's new.
-
-## Credits
-
-The original PlanBuild mod was created by __[MarcoPogo](https://github.com/MathiasDecrock)__
-
-Blueprint functionality originally created by __[Algorithman](https://github.com/Algorithman)__ & __[Jules](https://github.com/sirskunkalot)__
-
-Blueprint Marketplace GUI created by __[Dreous](https://github.com/imcanida)__
-
-All further coding by __[MarcoPogo](https://github.com/MathiasDecrock)__ & __[Jules](https://github.com/sirskunkalot)__
-
-Special thanks to __[Jere](https://github.com/JereKuusela)__ for exchanging code and ideas
-
-Made with Löve and __[Jötunn](https://github.com/Valheim-Modding/Jotunn)__
-
-## Contact
-
-Source available on GitHub: [https://github.com/sirskunkalot/PlanBuild](https://github.com/sirskunkalot/PlanBuild)﻿. All contributions welcome!
-
-You can find us at the [Jötunn Discord](https://discord.gg/DdUt6g7gyA) (```Jules#7950``` and ```MarcoPogo#6095```).
+The Hammer's PieceTable is scanned automatically, mods that add Pieces should be compatible. If you find a mod that adds pieces to the Hammer and they don't show up, please post a bug report with a link to the mod or join the [Jötunn Discord](https://discord.gg/DdUt6g7gyA) and ping ```@Jules``` 

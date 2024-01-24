@@ -1,4 +1,348 @@
-<?xml version="1.0"?>
+tation"></param>
+            <returns>
+                The matched internal name.
+                If the cookingStation parameter is null or empty, an empty string is returned.
+                Otherwise the unchanged cookingStation parameter is returned.
+            </returns>
+        </member>
+        <member name="T:Jotunn.Configs.CraftingStations">
+            <summary>
+                Helper to get existing crafting station names
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.CraftingStations.None">
+            <summary>
+                No crafting station
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.CraftingStations.Workbench">
+            <summary>
+               Workbench crafting station
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.CraftingStations.Forge">
+            <summary>
+               Forge crafting station
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.CraftingStations.Stonecutter">
+            <summary>
+                Stonecutter crafting station
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.CraftingStations.Cauldron">
+            <summary>
+                Cauldron crafting station
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.CraftingStations.ArtisanTable">
+            <summary>
+                Artisan table crafting station
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.CraftingStations.BlackForge">
+            <summary>
+                Black forge crafting station
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.CraftingStations.GaldrTable">
+            <summary>
+                Galdr table crafting station
+            </summary>
+        </member>
+        <member name="M:Jotunn.Configs.CraftingStations.GetNames">
+            <summary>
+                Gets the human readable name to internal names map
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Jotunn.Configs.CraftingStations.GetAcceptableValueList">
+            <summary>
+                Get a <see cref="T:BepInEx.Configuration.AcceptableValueList`1"/> of all crafting station names.
+                This can be used to create a <see cref="T:BepInEx.Configuration.ConfigEntry`1"/> where only valid crafting stations can be selected.<br/><br/>
+                Example:
+                <code>
+                    var stationConfig = Config.Bind("Section", "Key", nameof(CraftingStations.Workbench), new ConfigDescription("Description", CraftingStations.GetAcceptableValueList()));
+                </code>
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Jotunn.Configs.CraftingStations.GetInternalName(System.String)">
+            <summary>
+                Get the internal name for a crafting station from its human readable name.
+            </summary>
+            <param name="craftingStation"></param>
+            <returns>
+                The matched internal name.
+                If the craftingStation parameter is null or empty, <see cref="P:Jotunn.Configs.CraftingStations.None"/> is returned.
+                Otherwise the unchanged craftingStation parameter is returned.
+            </returns>
+        </member>
+        <member name="T:Jotunn.Configs.CreatureConfig">
+            <summary>
+                Configuration class for adding custom creature spawns.<br />
+                Use this in a constructor of <see cref="T:Jotunn.Entities.CustomCreature"/> 
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.CreatureConfig.Name">
+            <summary>
+                The unique name for your custom creature. May be tokenized.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.CreatureConfig.Group">
+            <summary>
+                Group tag of this creature.<br/>
+                Creatures in the same group don't attack each other, regardless of faction.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.CreatureConfig.Faction">
+            <summary>
+                <see cref="T:Character.Faction"/> of this creature.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.CreatureConfig.UseCumulativeLevelEffects">
+            <summary>
+                If set to true, <see cref="T:LevelEffects"/> stack the "EnableObject" action for all levels
+                instead of only activating the GameObject of the highest level matched.
+            </summary>
+        </member>
+        <member name="F:Jotunn.Configs.CreatureConfig.DropConfigs">
+            <summary>
+                Array of <see cref="T:Jotunn.Configs.DropConfig">DropConfigs</see> to use for this creature's <see cref="T:CharacterDrop"/>.<br/>
+                A <see cref="T:CharacterDrop"/> component will automatically be added if not present.<br/>
+                The drop table of an existing component will be replaced.
+            </summary>
+        </member>
+        <member name="F:Jotunn.Configs.CreatureConfig.SpawnConfigs">
+            <summary>
+                Array of <see cref="T:Jotunn.Configs.SpawnConfig">SpawnConfigs</see> used for world spawns of your custom creature.<br/>
+                Leave empty if you don't want your creature to spawn in the world automatically.<br/>
+            </summary>
+        </member>
+        <member name="F:Jotunn.Configs.CreatureConfig.Consumables">
+            <summary>
+                String array of items this creature can consume to use in the <see cref="T:MonsterAI"/> component.<br/>
+                Jötunn will try to resolve all strings to <see cref="T:ItemDrop">ItemDrops</see> at runtime.<br/>
+                An existing consumeItems table will be replaced.
+            </summary>
+        </member>
+        <member name="M:Jotunn.Configs.CreatureConfig.Apply(UnityEngine.GameObject)">
+            <summary>
+                Apply this config's values to a creature GameObject.
+            </summary>
+            <param name="prefab">Prefab to apply this config to</param>
+        </member>
+        <member name="M:Jotunn.Configs.CreatureConfig.GetDrops">
+            <summary>
+                Converts the <see cref="T:Jotunn.Configs.DropConfig">DropConfigs</see> to Valheim style <see cref="T:CharacterDrop.Drop"/> array.
+            </summary>
+            <returns>The Valheim <see cref="T:CharacterDrop.Drop"/> array</returns>
+        </member>
+        <member name="M:Jotunn.Configs.CreatureConfig.GetSpawns">
+            <summary>
+                Converts the <see cref="T:Jotunn.Configs.SpawnConfig">SpawnConfigs</see> to Valheim style <see cref="T:SpawnSystem.SpawnData"/> array.
+            </summary>
+            <returns>The Valheim <see cref="T:SpawnSystem.SpawnData"/> array</returns>
+        </member>
+        <member name="M:Jotunn.Configs.CreatureConfig.GetConsumeItems">
+            <summary>
+                Creates an array of <see cref="T:ItemDrop"/> mocks for the consumeItem list of the creature.
+            </summary>
+            <returns>An array of <see cref="T:ItemDrop"/> mocks</returns>
+        </member>
+        <member name="M:Jotunn.Configs.CreatureConfig.AddDropConfig(Jotunn.Configs.DropConfig)">
+            <summary>
+                Appends a new <see cref="T:Jotunn.Configs.DropConfig"/> to the array of existing ones.
+            </summary>
+            <param name="dropConfig"></param>
+        </member>
+        <member name="M:Jotunn.Configs.CreatureConfig.AddSpawnConfig(Jotunn.Configs.SpawnConfig)">
+            <summary>
+                Appends a new <see cref="T:Jotunn.Configs.SpawnConfig"/> to the array of existing ones.
+            </summary>
+            <param name="spawnConfig"></param>
+        </member>
+        <member name="M:Jotunn.Configs.CreatureConfig.AddConsumable(System.String)">
+            <summary>
+                Appends a new consumable to the array of existing ones.
+            </summary>
+            <param name="consumable"></param>
+        </member>
+        <member name="T:Jotunn.Configs.DropConfig">
+            <summary>
+                Configuration class for drops of <see cref="T:Jotunn.Entities.CustomCreature">CustomCreatures</see> used in <see cref="T:Jotunn.Configs.CreatureConfig"/>.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.DropConfig.Item">
+            <summary>
+                Name of the item prefab of this drop. Gets resolved by Jötunn at runtime.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.DropConfig.MinAmount">
+            <summary>
+                Minimum amount of this drop. Defaults to 1.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.DropConfig.MaxAmount">
+            <summary>
+                Maximum amount of this drop. Defaults to 1.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.DropConfig.Chance">
+            <summary>
+                Chance of this drop in percent. Defaults to 100f.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.DropConfig.OnePerPlayer">
+            <summary>
+                If true, only one instance per active player will be dropped regardless of min/max amount. Defaults to false.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.DropConfig.LevelMultiplier">
+            <summary>
+                Should the drop amount be multiplied by the creature level. Defaults to true.
+            </summary>
+        </member>
+        <member name="M:Jotunn.Configs.DropConfig.GetDrop">
+            <summary>
+                Creates a Valheim <see cref="T:CharacterDrop.Drop"/> from this config.
+            </summary>
+            <returns>The Valheim <see cref="T:CharacterDrop.Drop"/></returns>
+        </member>
+        <member name="T:Jotunn.Configs.FermenterConversionConfig">
+            <summary>
+                Used to add new ItemConversions to the Fermenter
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.FermenterConversionConfig.Station">
+            <summary>
+                The name of the station prefab this conversion is added to. Defaults to <see cref="P:Jotunn.Configs.Fermenters.Fermenter"/>.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.FermenterConversionConfig.ProducedItems">
+            <summary>
+                The amount of items one conversion yields. Defaults to 4.
+            </summary>
+        </member>
+        <member name="M:Jotunn.Configs.FermenterConversionConfig.GetItemConversion">
+            <summary>
+                Turns the FermenterConversionConfig into a Valheim Fermenter.ItemConversion item.
+            </summary>
+            <returns>The Valheim Fermenter.ItemConversion</returns>
+        </member>
+        <member name="M:Jotunn.Configs.FermenterConversionConfig.FromJson(System.String)">
+            <summary>
+                Loads a single FermenterConversionConfig from a JSON string
+            </summary>
+            <param name="json">JSON text</param>
+            <returns>Loaded FermenterConversionConfig</returns>
+        </member>
+        <member name="M:Jotunn.Configs.FermenterConversionConfig.ListFromJson(System.String)">
+            <summary>
+                Loads a list of FermenterConversionConfigs from a JSON string
+            </summary>
+            <param name="json">JSON text</param>
+            <returns>Loaded list of FermenterConversionConfigs</returns>
+        </member>
+        <member name="T:Jotunn.Configs.Fermenters">
+            <summary>
+                Helper to get existing fermenter names
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.Fermenters.Fermenter">
+            <summary>
+                Fermenter
+            </summary>
+        </member>
+        <member name="M:Jotunn.Configs.Fermenters.GetNames">
+            <summary>
+                Gets the human readable name to internal names map
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Jotunn.Configs.Fermenters.GetAcceptableValueList">
+            <summary>
+                Get a <see cref="T:BepInEx.Configuration.AcceptableValueList`1"/> of all fermenter names.
+                This can be used to create a <see cref="T:BepInEx.Configuration.ConfigEntry`1"/> where only valid fermenter can be selected.<br/><br/>
+                Example:
+                <code>
+                    var fermenterConfig = Config.Bind("Section", "Key", nameof(Fermenters.Fermenter), new ConfigDescription("Description", Fermenters.GetAcceptableValueList()));
+                </code>
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Jotunn.Configs.Fermenters.GetInternalName(System.String)">
+            <summary>
+                Get the internal name for a fermenter from its human readable name.
+            </summary>
+            <param name="fermenter"></param>
+            <returns>
+                The matched internal name.
+                If the fermenter parameter is null or empty, an empty string is returned.
+                Otherwise the unchanged fermenter parameter is returned.
+            </returns>
+        </member>
+        <member name="T:Jotunn.Configs.IncineratorConversionConfig">
+            <summary>
+                Used to add new IncineratorConversions to the Incinerator
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.IncineratorConversionConfig.Station">
+            <summary>
+                The name of the station prefab this conversion is added to. Defaults to <see cref="P:Jotunn.Configs.Incinerators.Incinerator"/>.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.IncineratorConversionConfig.Requirements">
+            <summary>
+                List of requirements for this conversion.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.IncineratorConversionConfig.ProducedItems">
+            <summary>
+                The amount of items one conversion yields. Defaults to 1.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.IncineratorConversionConfig.Priority">
+            <summary>
+                Priority of this conversion.
+                Lower prioritized conversions will be incinerated first when mulitple conversions requirements are met.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.IncineratorConversionConfig.RequireOnlyOneIngredient">
+            <summary>
+                True: Requires only one of the list of ingredients to be able to produce the result.
+                False: All of the ingredients are required.
+                Defaults to false.
+            </summary>
+        </member>
+        <member name="M:Jotunn.Configs.IncineratorConversionConfig.GetIncineratorConversion">
+            <summary>
+                Turns the IncineratorConversionConfig into a Valheim Incinerator.IncineratorConversion item.
+            </summary>
+            <returns>The Valheim Incinerator.IncineratorConversion</returns>
+        </member>
+        <member name="M:Jotunn.Configs.IncineratorConversionConfig.FromJson(System.String)">
+            <summary>
+                Loads a single IncineratorConversionConfig from a JSON string
+            </summary>
+            <param name="json">JSON text</param>
+            <returns>Loaded IncineratorConversionConfig</returns>
+        </member>
+        <member name="M:Jotunn.Configs.IncineratorConversionConfig.ListFromJson(System.String)">
+            <summary>
+                Loads a list of IncineratorConversionConfigs from a JSON string
+            </summary>
+            <param name="json">JSON text</param>
+            <returns>Loaded list of IncineratorConversionConfigs</returns>
+        </member>
+        <member name="T:Jotunn.Configs.IncineratorRequirementConfig">
+            <summary>
+                Wrapper for the <see cref="T:Incinerator.Requirement"/>
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.IncineratorRequirementConfig.Item">
+            <summary>
+          <?xml version="1.0"?>
 <doc>
     <assembly>
         <name>Jotunn</name>
@@ -364,351 +708,7 @@
             <summary>
                 Get the internal name for a cooking station from its human readable name.
             </summary>
-            <param name="cookingStation"></param>
-            <returns>
-                The matched internal name.
-                If the cookingStation parameter is null or empty, an empty string is returned.
-                Otherwise the unchanged cookingStation parameter is returned.
-            </returns>
-        </member>
-        <member name="T:Jotunn.Configs.CraftingStations">
-            <summary>
-                Helper to get existing crafting station names
-            </summary>
-        </member>
-        <member name="P:Jotunn.Configs.CraftingStations.None">
-            <summary>
-                No crafting station
-            </summary>
-        </member>
-        <member name="P:Jotunn.Configs.CraftingStations.Workbench">
-            <summary>
-               Workbench crafting station
-            </summary>
-        </member>
-        <member name="P:Jotunn.Configs.CraftingStations.Forge">
-            <summary>
-               Forge crafting station
-            </summary>
-        </member>
-        <member name="P:Jotunn.Configs.CraftingStations.Stonecutter">
-            <summary>
-                Stonecutter crafting station
-            </summary>
-        </member>
-        <member name="P:Jotunn.Configs.CraftingStations.Cauldron">
-            <summary>
-                Cauldron crafting station
-            </summary>
-        </member>
-        <member name="P:Jotunn.Configs.CraftingStations.ArtisanTable">
-            <summary>
-                Artisan table crafting station
-            </summary>
-        </member>
-        <member name="P:Jotunn.Configs.CraftingStations.BlackForge">
-            <summary>
-                Black forge crafting station
-            </summary>
-        </member>
-        <member name="P:Jotunn.Configs.CraftingStations.GaldrTable">
-            <summary>
-                Galdr table crafting station
-            </summary>
-        </member>
-        <member name="M:Jotunn.Configs.CraftingStations.GetNames">
-            <summary>
-                Gets the human readable name to internal names map
-            </summary>
-            <returns></returns>
-        </member>
-        <member name="M:Jotunn.Configs.CraftingStations.GetAcceptableValueList">
-            <summary>
-                Get a <see cref="T:BepInEx.Configuration.AcceptableValueList`1"/> of all crafting station names.
-                This can be used to create a <see cref="T:BepInEx.Configuration.ConfigEntry`1"/> where only valid crafting stations can be selected.<br/><br/>
-                Example:
-                <code>
-                    var stationConfig = Config.Bind("Section", "Key", nameof(CraftingStations.Workbench), new ConfigDescription("Description", CraftingStations.GetAcceptableValueList()));
-                </code>
-            </summary>
-            <returns></returns>
-        </member>
-        <member name="M:Jotunn.Configs.CraftingStations.GetInternalName(System.String)">
-            <summary>
-                Get the internal name for a crafting station from its human readable name.
-            </summary>
-            <param name="craftingStation"></param>
-            <returns>
-                The matched internal name.
-                If the craftingStation parameter is null or empty, <see cref="P:Jotunn.Configs.CraftingStations.None"/> is returned.
-                Otherwise the unchanged craftingStation parameter is returned.
-            </returns>
-        </member>
-        <member name="T:Jotunn.Configs.CreatureConfig">
-            <summary>
-                Configuration class for adding custom creature spawns.<br />
-                Use this in a constructor of <see cref="T:Jotunn.Entities.CustomCreature"/> 
-            </summary>
-        </member>
-        <member name="P:Jotunn.Configs.CreatureConfig.Name">
-            <summary>
-                The unique name for your custom creature. May be tokenized.
-            </summary>
-        </member>
-        <member name="P:Jotunn.Configs.CreatureConfig.Group">
-            <summary>
-                Group tag of this creature.<br/>
-                Creatures in the same group don't attack each other, regardless of faction.
-            </summary>
-        </member>
-        <member name="P:Jotunn.Configs.CreatureConfig.Faction">
-            <summary>
-                <see cref="T:Character.Faction"/> of this creature.
-            </summary>
-        </member>
-        <member name="P:Jotunn.Configs.CreatureConfig.UseCumulativeLevelEffects">
-            <summary>
-                If set to true, <see cref="T:LevelEffects"/> stack the "EnableObject" action for all levels
-                instead of only activating the GameObject of the highest level matched.
-            </summary>
-        </member>
-        <member name="F:Jotunn.Configs.CreatureConfig.DropConfigs">
-            <summary>
-                Array of <see cref="T:Jotunn.Configs.DropConfig">DropConfigs</see> to use for this creature's <see cref="T:CharacterDrop"/>.<br/>
-                A <see cref="T:CharacterDrop"/> component will automatically be added if not present.<br/>
-                The drop table of an existing component will be replaced.
-            </summary>
-        </member>
-        <member name="F:Jotunn.Configs.CreatureConfig.SpawnConfigs">
-            <summary>
-                Array of <see cref="T:Jotunn.Configs.SpawnConfig">SpawnConfigs</see> used for world spawns of your custom creature.<br/>
-                Leave empty if you don't want your creature to spawn in the world automatically.<br/>
-            </summary>
-        </member>
-        <member name="F:Jotunn.Configs.CreatureConfig.Consumables">
-            <summary>
-                String array of items this creature can consume to use in the <see cref="T:MonsterAI"/> component.<br/>
-                Jötunn will try to resolve all strings to <see cref="T:ItemDrop">ItemDrops</see> at runtime.<br/>
-                An existing consumeItems table will be replaced.
-            </summary>
-        </member>
-        <member name="M:Jotunn.Configs.CreatureConfig.Apply(UnityEngine.GameObject)">
-            <summary>
-                Apply this config's values to a creature GameObject.
-            </summary>
-            <param name="prefab">Prefab to apply this config to</param>
-        </member>
-        <member name="M:Jotunn.Configs.CreatureConfig.GetDrops">
-            <summary>
-                Converts the <see cref="T:Jotunn.Configs.DropConfig">DropConfigs</see> to Valheim style <see cref="T:CharacterDrop.Drop"/> array.
-            </summary>
-            <returns>The Valheim <see cref="T:CharacterDrop.Drop"/> array</returns>
-        </member>
-        <member name="M:Jotunn.Configs.CreatureConfig.GetSpawns">
-            <summary>
-                Converts the <see cref="T:Jotunn.Configs.SpawnConfig">SpawnConfigs</see> to Valheim style <see cref="T:SpawnSystem.SpawnData"/> array.
-            </summary>
-            <returns>The Valheim <see cref="T:SpawnSystem.SpawnData"/> array</returns>
-        </member>
-        <member name="M:Jotunn.Configs.CreatureConfig.GetConsumeItems">
-            <summary>
-                Creates an array of <see cref="T:ItemDrop"/> mocks for the consumeItem list of the creature.
-            </summary>
-            <returns>An array of <see cref="T:ItemDrop"/> mocks</returns>
-        </member>
-        <member name="M:Jotunn.Configs.CreatureConfig.AddDropConfig(Jotunn.Configs.DropConfig)">
-            <summary>
-                Appends a new <see cref="T:Jotunn.Configs.DropConfig"/> to the array of existing ones.
-            </summary>
-            <param name="dropConfig"></param>
-        </member>
-        <member name="M:Jotunn.Configs.CreatureConfig.AddSpawnConfig(Jotunn.Configs.SpawnConfig)">
-            <summary>
-                Appends a new <see cref="T:Jotunn.Configs.SpawnConfig"/> to the array of existing ones.
-            </summary>
-            <param name="spawnConfig"></param>
-        </member>
-        <member name="M:Jotunn.Configs.CreatureConfig.AddConsumable(System.String)">
-            <summary>
-                Appends a new consumable to the array of existing ones.
-            </summary>
-            <param name="consumable"></param>
-        </member>
-        <member name="T:Jotunn.Configs.DropConfig">
-            <summary>
-                Configuration class for drops of <see cref="T:Jotunn.Entities.CustomCreature">CustomCreatures</see> used in <see cref="T:Jotunn.Configs.CreatureConfig"/>.
-            </summary>
-        </member>
-        <member name="P:Jotunn.Configs.DropConfig.Item">
-            <summary>
-                Name of the item prefab of this drop. Gets resolved by Jötunn at runtime.
-            </summary>
-        </member>
-        <member name="P:Jotunn.Configs.DropConfig.MinAmount">
-            <summary>
-                Minimum amount of this drop. Defaults to 1.
-            </summary>
-        </member>
-        <member name="P:Jotunn.Configs.DropConfig.MaxAmount">
-            <summary>
-                Maximum amount of this drop. Defaults to 1.
-            </summary>
-        </member>
-        <member name="P:Jotunn.Configs.DropConfig.Chance">
-            <summary>
-                Chance of this drop in percent. Defaults to 100f.
-            </summary>
-        </member>
-        <member name="P:Jotunn.Configs.DropConfig.OnePerPlayer">
-            <summary>
-                If true, only one instance per active player will be dropped regardless of min/max amount. Defaults to false.
-            </summary>
-        </member>
-        <member name="P:Jotunn.Configs.DropConfig.LevelMultiplier">
-            <summary>
-                Should the drop amount be multiplied by the creature level. Defaults to true.
-            </summary>
-        </member>
-        <member name="M:Jotunn.Configs.DropConfig.GetDrop">
-            <summary>
-                Creates a Valheim <see cref="T:CharacterDrop.Drop"/> from this config.
-            </summary>
-            <returns>The Valheim <see cref="T:CharacterDrop.Drop"/></returns>
-        </member>
-        <member name="T:Jotunn.Configs.FermenterConversionConfig">
-            <summary>
-                Used to add new ItemConversions to the Fermenter
-            </summary>
-        </member>
-        <member name="P:Jotunn.Configs.FermenterConversionConfig.Station">
-            <summary>
-                The name of the station prefab this conversion is added to. Defaults to <see cref="P:Jotunn.Configs.Fermenters.Fermenter"/>.
-            </summary>
-        </member>
-        <member name="P:Jotunn.Configs.FermenterConversionConfig.ProducedItems">
-            <summary>
-                The amount of items one conversion yields. Defaults to 4.
-            </summary>
-        </member>
-        <member name="M:Jotunn.Configs.FermenterConversionConfig.GetItemConversion">
-            <summary>
-                Turns the FermenterConversionConfig into a Valheim Fermenter.ItemConversion item.
-            </summary>
-            <returns>The Valheim Fermenter.ItemConversion</returns>
-        </member>
-        <member name="M:Jotunn.Configs.FermenterConversionConfig.FromJson(System.String)">
-            <summary>
-                Loads a single FermenterConversionConfig from a JSON string
-            </summary>
-            <param name="json">JSON text</param>
-            <returns>Loaded FermenterConversionConfig</returns>
-        </member>
-        <member name="M:Jotunn.Configs.FermenterConversionConfig.ListFromJson(System.String)">
-            <summary>
-                Loads a list of FermenterConversionConfigs from a JSON string
-            </summary>
-            <param name="json">JSON text</param>
-            <returns>Loaded list of FermenterConversionConfigs</returns>
-        </member>
-        <member name="T:Jotunn.Configs.Fermenters">
-            <summary>
-                Helper to get existing fermenter names
-            </summary>
-        </member>
-        <member name="P:Jotunn.Configs.Fermenters.Fermenter">
-            <summary>
-                Fermenter
-            </summary>
-        </member>
-        <member name="M:Jotunn.Configs.Fermenters.GetNames">
-            <summary>
-                Gets the human readable name to internal names map
-            </summary>
-            <returns></returns>
-        </member>
-        <member name="M:Jotunn.Configs.Fermenters.GetAcceptableValueList">
-            <summary>
-                Get a <see cref="T:BepInEx.Configuration.AcceptableValueList`1"/> of all fermenter names.
-                This can be used to create a <see cref="T:BepInEx.Configuration.ConfigEntry`1"/> where only valid fermenter can be selected.<br/><br/>
-                Example:
-                <code>
-                    var fermenterConfig = Config.Bind("Section", "Key", nameof(Fermenters.Fermenter), new ConfigDescription("Description", Fermenters.GetAcceptableValueList()));
-                </code>
-            </summary>
-            <returns></returns>
-        </member>
-        <member name="M:Jotunn.Configs.Fermenters.GetInternalName(System.String)">
-            <summary>
-                Get the internal name for a fermenter from its human readable name.
-            </summary>
-            <param name="fermenter"></param>
-            <returns>
-                The matched internal name.
-                If the fermenter parameter is null or empty, an empty string is returned.
-                Otherwise the unchanged fermenter parameter is returned.
-            </returns>
-        </member>
-        <member name="T:Jotunn.Configs.IncineratorConversionConfig">
-            <summary>
-                Used to add new IncineratorConversions to the Incinerator
-            </summary>
-        </member>
-        <member name="P:Jotunn.Configs.IncineratorConversionConfig.Station">
-            <summary>
-                The name of the station prefab this conversion is added to. Defaults to <see cref="P:Jotunn.Configs.Incinerators.Incinerator"/>.
-            </summary>
-        </member>
-        <member name="P:Jotunn.Configs.IncineratorConversionConfig.Requirements">
-            <summary>
-                List of requirements for this conversion.
-            </summary>
-        </member>
-        <member name="P:Jotunn.Configs.IncineratorConversionConfig.ProducedItems">
-            <summary>
-                The amount of items one conversion yields. Defaults to 1.
-            </summary>
-        </member>
-        <member name="P:Jotunn.Configs.IncineratorConversionConfig.Priority">
-            <summary>
-                Priority of this conversion.
-                Lower prioritized conversions will be incinerated first when mulitple conversions requirements are met.
-            </summary>
-        </member>
-        <member name="P:Jotunn.Configs.IncineratorConversionConfig.RequireOnlyOneIngredient">
-            <summary>
-                True: Requires only one of the list of ingredients to be able to produce the result.
-                False: All of the ingredients are required.
-                Defaults to false.
-            </summary>
-        </member>
-        <member name="M:Jotunn.Configs.IncineratorConversionConfig.GetIncineratorConversion">
-            <summary>
-                Turns the IncineratorConversionConfig into a Valheim Incinerator.IncineratorConversion item.
-            </summary>
-            <returns>The Valheim Incinerator.IncineratorConversion</returns>
-        </member>
-        <member name="M:Jotunn.Configs.IncineratorConversionConfig.FromJson(System.String)">
-            <summary>
-                Loads a single IncineratorConversionConfig from a JSON string
-            </summary>
-            <param name="json">JSON text</param>
-            <returns>Loaded IncineratorConversionConfig</returns>
-        </member>
-        <member name="M:Jotunn.Configs.IncineratorConversionConfig.ListFromJson(System.String)">
-            <summary>
-                Loads a list of IncineratorConversionConfigs from a JSON string
-            </summary>
-            <param name="json">JSON text</param>
-            <returns>Loaded list of IncineratorConversionConfigs</returns>
-        </member>
-        <member name="T:Jotunn.Configs.IncineratorRequirementConfig">
-            <summary>
-                Wrapper for the <see cref="T:Incinerator.Requirement"/>
-            </summary>
-        </member>
-        <member name="P:Jotunn.Configs.IncineratorRequirementConfig.Item">
-            <summary>
-                Name of the item prefab of this incinerator requirement
+            <param name="cookingS      Name of the item prefab of this incinerator requirement
             </summary>
         </member>
         <member name="P:Jotunn.Configs.IncineratorRequirementConfig.Amount">
