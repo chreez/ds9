@@ -2,4 +2,14 @@ DumpedAssemblies/
 LogOutput.log
 cache/
 core/
+BepInEx.rar
+MonoBleedingEdge/
+UnityCrashHandler64.exe
+UnityPlayer.dll
+changelog.txt
+steam_appid.txt
+unstripped_corlib/
+valheim.exe
+valheim_Data/
+
 
