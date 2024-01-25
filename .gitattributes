@@ -6,3 +6,4 @@
 *.bat binary
 *.cmd binary
 *.dll binary
+*.blueprint binary
