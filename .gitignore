@@ -1,1 +1,13 @@
-ds9patcher
+DumpedAssemblies/
+LogOutput.log
+cache/
+MonoBleedingEdge/
+UnityCrashHandler64.exe
+UnityPlayer.dll
+changelog.txt
+steam_appid.txt
+unstripped_corlib/
+valheim.exe
+valheim_Data/
+
+
